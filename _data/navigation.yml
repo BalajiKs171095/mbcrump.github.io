@@ -1,0 +1,10 @@
+# Site navigation links
+
+- title: Posts
+  url: /posts/
+
+- title: About
+  url: /about/
+
+- title: My Telerik Blog
+  url: http://developer.telerik.com/author/mcrump/
