@@ -29,7 +29,7 @@ owner:
   name: Michael Crump
   avatar: https://avatars1.githubusercontent.com/u/534885?v=2&s=460
   bio: Mobile App Developer
-  email: mbcrump29@gmail.com
+  email: #username
   disqus-shortname: mbcrump
   twitter: mbcrump
   facebook: #username
@@ -51,10 +51,10 @@ owner:
   foursquare: #username
   steam: #username
   dribbble: #username
-  youtube: #username
+  youtube: mbcrump
   soundcloud: #username
   weibo: #username
-  flickr: #username
+  flickr: mbcrump
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
