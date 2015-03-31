@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Android’s growth is a pain in the app for developers"
+title: "Android’s Growth is a Pain in the App for Developers"
 excerpt: "An interview with me and others on the Android landscape"
 tags: [wearables, google, android]
 link: http://sdtimes.com/androids-growth-is-a-pain-in-the-app-for-developers/ 
