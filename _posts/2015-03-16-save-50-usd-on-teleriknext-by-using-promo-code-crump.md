@@ -6,9 +6,8 @@ tags: [conferences, mobile, dotnet]
 comments: true
 ---
 
-[Telerik](http://www.telerik.com) is hosting a new event called[TelerikNext](http://www.teleriknext.com) taking place in Boston, MA on May 3rd-5th.
-
-
+[Telerik](http://www.telerik.com) is hosting a new event called[TelerikNext](http://www.teleriknext.com) taking place in Boston, MA on May 3rd-5th.  
+  
 This 3-day conference includes:
 
 *   A full day of expert-led workshops, prior to the event that includes web, desktop and mobile.
