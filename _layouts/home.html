@@ -38,6 +38,7 @@
     <article>
       {% if post.link %}
         <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
+        <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
       {% else %}
         <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
         <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
@@ -50,7 +51,6 @@
 
 <div class="footer-wrap">
   <footer>
-  <a href="{{ site.url}}/posts/">Older Posts</a>
     {% include _footer.html %}
   </footer>
 </div><!-- /.footer-wrap -->
