@@ -41,11 +41,11 @@
         <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
       {% else %}
         <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-        <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+        <br/><p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
       {% endif %}
     </article>
     {% endfor %}
-    <b><a href="{{ site.url}}/posts/">Older Posts</a></b>
+    <b><a href="{{ site.url}}/posts/"><< Older</a></b>
   </div><!-- /#index -->
 </div><!-- /#main -->
 
