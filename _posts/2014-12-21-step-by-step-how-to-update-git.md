@@ -8,14 +8,14 @@ comments: true
 
 ###Introduction
 
-I've seen a lot of questions on the web about how to update your Mac client to the latest version which contains the fix for the [security vulnerability](Vulnerability announced: update your Git clients) announced last week. 
+I've seen a lot of questions on the web about how to update your Mac client to the latest version which contains the fix for the security vulnerability announced last week. 
 
 It is actually quite simple: 
 
 Open your terminal prompt and type the following: 
 
 	git --version
-	
+
 If it comes back with the following result, then you are using Apple's Git, not the offiical distro of Git. 
 
 	git version 1.9.3 (Apple Git-50)
