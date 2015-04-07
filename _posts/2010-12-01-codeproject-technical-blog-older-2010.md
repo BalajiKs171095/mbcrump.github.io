@@ -23,3 +23,6 @@ comments: true
 **[Visual Studio Async CTP for the rest of us… [Technical Blog]](http://www.codeproject.com/Articles/129662/Visual-Studio-Async-CTP-for-the-rest-of-us-hellip)**
 
 **[What is the best book on Silverlight 4? [Technical Blog]](http://www.codeproject.com/Articles/142337/What-is-the-best-book-on-Silverlight-4)**
+
+
+
