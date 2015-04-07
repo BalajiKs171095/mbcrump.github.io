@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CodeProject Technical Blog (Older - 2010)
+title: "CodeProject Technical Blog (Older - 2010)"
 comments: true
 ---
 
