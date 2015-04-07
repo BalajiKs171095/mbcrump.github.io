@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Silverlight 4 – Coded UI Framework Video Tutorial
-excerpt: {{ post.content | strip_html | truncatewords: 50 }}
+excerpt: {{ post.excerpt }}
 tags: 
 comments: true
 ---
