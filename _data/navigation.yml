@@ -2,9 +2,6 @@
 
 - title: Posts
   url: /posts/
-  
-- title: Speaking
-  url: /speaking/
 
-- title: RSS Feed
+- title: RSS
   url: http://mbcrump.github.io/feed
