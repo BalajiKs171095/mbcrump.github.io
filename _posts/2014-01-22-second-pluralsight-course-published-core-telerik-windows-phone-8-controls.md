@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Second PluralSight Course Published: Core Telerik Windows Phone 8 Controls
+title: Core Telerik Windows Phone 8 Controls
 excerpt: 
 tags: 
 comments: true
