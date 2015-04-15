@@ -6,8 +6,6 @@ tags:
 comments: true
 ---
 
-# A Healthy Way of Living with a Sedentary Job#
-
 Let me get this out of the way first, this post isn't about losing weight or building muscle.  It's about how you can change your lifestyle once and for all and live a healthy life. I am not a doctor or nutritionist, but I have been on both sides of the fence. I used to have a physical job when I was younger, then I entered my professional career and sat at a computer desk all day. Needless to say, my weight got out of control when I became sedentary and came home to sit on the couch. This post covers the changes that I've made to live a healthier lifestyle. 
 
 Here is the short version of what I focused on. 
