@@ -18,4 +18,4 @@ This 3-day conference includes:
 
 You can get $50 off per person by using the promo code “**CRUMP”**.  We look forward to seeing you there!
 
-[![TelerikNEXT Email Signature Banner](http://michaelcrump.net/files/TelerikNEXT%20Email%20Signature%20Banner_635609714476510057.png "TelerikNEXT Email Signature Banner")](http://www.teleriknext.com)
+![TelerikNEXT Email Signature Banner](http://michaelcrump.net/images/TelerikNEXT%20Email%20Signature%20Banner_635609714476510057.png")]
