@@ -11,7 +11,7 @@ comments: true
 
 I've used [FunnelWeb](http://www.funnelweblog.com/) for the past couple of years and decided that it is time to move on. Since Funnelweb is open-source and based off of MVC 3, I jumped on the bandwagon and customized it to my liking. The problem is that the project has grown stale and almost all of the original developers have moved on. It also has a lot of problems with modern web and mobile browsers just to name a few. It looked like this in a browser. 
 
-![image](./files/funnelweb.png)
+![image](/files/funnelweb.png)
 
 *Not so great, I know*
 
@@ -31,7 +31,7 @@ After evaluating different blog engines, I decided that my requirements were the
 
 I went with [Jekyll](http://jekyllrb.com/) as it met all of my requirements and I'm able to install it on my GitHub page and get a lightning fast host for free. 
 
-![image](./files/jekyllblogmc.png)
+![image](/files/jekyllblogmc.png)
 
 ##The Challenges
 
