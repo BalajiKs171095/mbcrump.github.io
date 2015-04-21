@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Four Ways to Quickly Test Swift Code Snippets"
-excerpt: "Give your WPF app a facelift!"
+excerpt: "This article teaches you how to quickly test Swift code snippets"
 tags: [ios, swift, xcode]
 link: http://developer.telerik.com/featured/four-ways-to-quickly-test-swift-code/
 share: true
