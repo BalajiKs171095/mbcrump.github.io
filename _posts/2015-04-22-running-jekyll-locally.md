@@ -21,8 +21,9 @@ Next, at your terminal prompt enter the following command to serve your site loc
 	bundle exec jekyll serve --baseurl ''
 	{% endhighlight %}	
 <br>
-This simply overwrites the baseurl value with no value. There are other ways that you can maintain two .yml files, but I found this to be a pain. 
+This simply overwrites the baseurl value with no value. 
 Now simply navigate out to [http://127.0.0.1:4000/](http://127.0.0.1:4000/) and your links should be pointing to the local version instead of your github page or custom domain.<br>
+> Note: There are other ways that you can maintain two .yml files (one for development and one for production) located [link](http://www.jaredwolff.com/blog/jekyll-local-preview/). 
 
 I hoped this helped, I was beginning to pull my hair out!
 
