@@ -16,7 +16,7 @@ Open your _config.yml file and add the following line (replace my domain name wi
 	{% highlight text %}
 	baseurl:          http://michaelcrump.net
 	{% endhighlight %}
-If you already have a url entry, then delete it. Next, at your terminal prompt enter the following command to serve your site locally:
+Next, at your terminal prompt enter the following command to serve your site locally:
 	{% highlight text %}
 	bundle exec jekyll serve --baseurl ''
 	{% endhighlight %}	
