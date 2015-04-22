@@ -2,7 +2,7 @@
 
 title:            Michael Crump
 locale:           en_US
-url:              http://michaelcrump.net
+baseurl:          http://michaelcrump.net
 
 
 # Jekyll configuration
