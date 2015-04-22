@@ -22,9 +22,10 @@ Next, at your terminal prompt enter the following command to serve your site loc
 	{% endhighlight %}	
 <br>
 This simply overwrites the baseurl value with no value. 
-Now simply navigate out to [http://127.0.0.1:4000/](http://127.0.0.1:4000/) and your links should be pointing to the local version instead of your github page or custom domain.<br>
-> Note: There are other ways that you can maintain two .yml files (one for development and one for production) located [link](http://www.jaredwolff.com/blog/jekyll-local-preview/). 
+Now simply navigate out to [http://127.0.0.1:4000/](http://127.0.0.1:4000/) and your links should be pointing to the local version instead of your github page or custom domain.
 
-I hoped this helped, I was beginning to pull my hair out!
+> Note: There are other ways that you can maintain two .yml files (one for development and one for production) located [here](http://www.jaredwolff.com/blog/jekyll-local-preview/). 
+
+I hoped this helped!
 
 
