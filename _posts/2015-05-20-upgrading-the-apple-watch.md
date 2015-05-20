@@ -48,7 +48,7 @@ The following is shown on your watch.
 
 ...and it takes forever to transfer over to your watch. 
 
-![image](/files/applewatch10.png)
+![image](/files/applewatch10.jpg)
 
 Once it is complete, you will see if the update was successful or not. 
 
