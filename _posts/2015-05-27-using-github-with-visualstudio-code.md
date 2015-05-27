@@ -43,11 +43,11 @@ Here is a screenshot of my project :
 
 ![image](/files/gitconfigvscode.jpg)
 
-This is typically the part where you begin a Google Search because you can't figure out how to get the drop down to populate. 
+This is typically the part where you begin a Google Search because you can't figure out how to get the drop down to populate to push your source to a remote server. 
 
 ![image](/files/cantcommittogitvscode.jpg)
 
-##Fix it!
+##Time to Fix it!
 
 Open [github.com](http://github.com) and create a Repo. Copy the path to the .git for later use. 
 
