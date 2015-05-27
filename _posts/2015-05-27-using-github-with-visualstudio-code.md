@@ -8,7 +8,7 @@ comments: true
 
 ##Introduction
 
-[Visual Studio Code](https://code.visualstudio.com/) has built in Git support, but very few know how to actually use it on OSX with GitHub. Even in the [official docs](https://code.visualstudio.com/Docs/versioncontrol), there is only a few paragraphs on it. In this post, I'll show you an easier way. 
+[Visual Studio Code](https://code.visualstudio.com/) has built in Git support, but very few know how to use it on OSX with GitHub. Even in the [official docs](https://code.visualstudio.com/Docs/versioncontrol), there is only a few paragraphs on it. In this post, I'll show you how I set it up. 
 
 ##Adding your project to GitHub
 
@@ -31,13 +31,12 @@ If you navigate back to your project, then you will see a new folder called ".gi
 
 {% highlight text %}
 [core]
-	repositoryformatversion = 0
-	filemode = true
-	bare = false
-	logallrefupdates = true
-	ignorecase = true
-	precomposeunicode = true
-
+repositoryformatversion = 0
+filemode = true
+bare = false
+logallrefupdates = true
+ignorecase = true
+precomposeunicode = true
 {% endhighlight %}
 
 Here is a screenshot of my project : 
@@ -65,18 +64,20 @@ If you examine your .git/config file you will see the following has been added:
 
 {% highlight text %}
 [core]
-	repositoryformatversion = 0
-	filemode = true
-	bare = false
-	logallrefupdates = true
-	ignorecase = true
-	precomposeunicode = true
+repositoryformatversion = 0
+filemode = true
+bare = false
+logallrefupdates = true
+ignorecase = true
+precomposeunicode = true
+
 [remote "origin"]
-	url = https://github.com/mbcrump/SampleProject.git
-	fetch = +refs/heads/*:refs/remotes/origin/*
+url = https://github.com/mbcrump/SampleProject.git
+fetch = +refs/heads/*:refs/remotes/origin/*
+
 [branch "master"]
-	remote = origin
-	merge = refs/heads/master
+remote = origin
+merge = refs/heads/master
 {% endhighlight %}
 
 Here is a screenshot of my project : 
