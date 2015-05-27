@@ -8,7 +8,7 @@ comments: true
 
 ##Introduction
 
-[Visual Studio Code](https://code.visualstudio.com/)is powerful IDE that Microsoft released at Build 2015. There have been several questions regarding how to setup TypeScript with Visual Studio Code on OSX. I decided that I'd stop for a second and make a quick post showing you exactly how to do it. 
+[Visual Studio Code](https://code.visualstudio.com/) is powerful IDE that Microsoft released at Build 2015. There have been several questions regarding how to setup TypeScript with Visual Studio Code on OSX. I decided that I'd stop for a second and make a quick post showing you exactly how to do it. 
 
 ##Install TypeScript first
 
@@ -21,10 +21,10 @@ From your terminal, enter the following :
 You should see the following in your terminal window after running the command : 
 
 	{% highlight text %}
-	$ npm install -g typescript
-	/usr/local/bin/tsc -> /usr/local/lib/node_modules/typescript/bin/tsc
-	/usr/local/bin/tsserver -> /usr/local/lib/node_modules/typescript/bin/tsserver
-	typescript@1.5.0-beta /usr/local/lib/node_modules/typescript
+$ npm install -g typescript
+/usr/local/bin/tsc -> /usr/local/lib/node_modules/typescript/bin/tsc
+/usr/local/bin/tsserver -> /usr/local/lib/node_modules/typescript/bin/tsserver
+typescript@1.5.0-beta /usr/local/lib/node_modules/typescript
 	{% endhighlight %}	
 
 Notice that it installed typescript 1.5.0-beta. This is required for Visual Studio Code. 
