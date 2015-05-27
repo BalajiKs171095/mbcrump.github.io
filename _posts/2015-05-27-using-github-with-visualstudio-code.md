@@ -84,7 +84,7 @@ Here is a screenshot of my project :
 
 ![image](/files/gitconfigfinalvscode.jpg)
 	
-You can now switch back to Git in Visual Studio Code and perform the operations from now on without the command line. Here is an example of where I modified a file and can now push to a remote server. 
+You can now switch back to Git in Visual Studio Code and perform the operations from now on without the command line. Here is an example of where I modified a file and can now commit to a remote server. 
 
 ![image](/files/maintsmodified.jpg)
 
