@@ -75,7 +75,7 @@ If you press CMD-Shift-B, then it will ask you to configure the Task Runner. You
 }
 {% endhighlight %}
 	
-Note: Don't worry about the windows section as the OSX installation of Visual Studio Code will ignore it. The only thing we changed here was the **args** field, which allows it to search the current directory and added **isShellCommand** to true. 
+Note: Don't worry about the windows section as the OSX installation of Visual Studio Code will ignore it. The only thing we changed here was the **args** field, which allows it to compile all files in the current directory and subdirectory and added **isShellCommand** to true. Notice that under command, it has tsc. If you didn't install TypeScript first, then it would have failed here. 
 
 ##Create a main.ts file and add some TypeScript code
 
