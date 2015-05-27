@@ -33,15 +33,15 @@ Notice that it installed typescript 1.5.0-beta. This is required for Visual Stud
 
 Create a New Project and create a new file called tsconfig.json. 
 
-	{% highlight text %}
-	{
-		"compilerOptions": {
-			"target": "ES5",
-			"module": "amd",
-			"sourceMap": true
-		}
+{% highlight text %}
+{
+	"compilerOptions": {
+		"target": "ES5",
+		"module": "amd",
+		"sourceMap": true
 	}
-	{% endhighlight %}
+}
+{% endhighlight %}
 	
 Note: By default the target is ES3. I changed mine to ES5, which Visual Studio Code supports, but it also supports ES6 (experimental).
 
@@ -49,31 +49,31 @@ Note: By default the target is ES3. I changed mine to ES5, which Visual Studio C
 
 If you press CMD-Shift-B, then it will ask you to configure the Task Runner. You will now have a file called tasks.json. Make sure it looks like the following: 
 
-	{% highlight text %}
-	{
-		"version": "0.1.0",
+{% highlight text %}
+{
+	"version": "0.1.0",
 	
-		// The command is tsc.
-		"command": "tsc",
+	// The command is tsc.
+	"command": "tsc",
 
-		// Show the output window only if unrecognized errors occur. 
-		"showOutput": "silent",
+	// Show the output window only if unrecognized errors occur. 
+	"showOutput": "silent",
 	
-		// Under windows use tsc.exe. This ensures we don't need a shell.
-		"windows": {
-			"command": "tsc.exe"
-		},
+	// Under windows use tsc.exe. This ensures we don't need a shell.
+	"windows": {
+		"command": "tsc.exe"
+	},
 	
-		// args is the HelloWorld program to compile.
-		"args": [],
+	// args is the HelloWorld program to compile.
+	"args": [],
 	
-		"isShellCommand": true,
+	"isShellCommand": true,
 	
-		// use the standard tsc problem matcher to find compile problems
-		// in the output.
-		"problemMatcher": "$tsc"
-	}
-	{% endhighlight %}
+	// use the standard tsc problem matcher to find compile problems
+	// in the output.
+	"problemMatcher": "$tsc"
+}
+{% endhighlight %}
 	
 Note: Don't worry about the windows section as the OSX installation of Visual Studio Code will ignore it. The only thing we changed here was the **args** field, which allows it to search the current directory and added **isShellCommand** to true. 
 
@@ -81,20 +81,20 @@ Note: Don't worry about the windows section as the OSX installation of Visual St
 
 You can use the following sample code if you wish : 
 
-	{% highlight text %}
-	class Greeter {
-    	greeting: string;
-    	constructor(message: string) {
-        	this.greeting = message;
-    	}
-    	greet() {
-        	return "Hello, " + this.greeting;
-    	}
-	}
+{% highlight text %}
+class Greeter {
+    greeting: string;
+    constructor(message: string) {
+        this.greeting = message;
+    }
+    greet() {
+        return "Hello, " + this.greeting;
+    }
+}
 
-	var greeter = new Greeter(" Twitter");
+var greeter = new Greeter(" Twitter");
 
-	{% endhighlight %}
+{% endhighlight %}
 	
 Press CMD-Shift-B and you should see a main.js has been created. 
 
