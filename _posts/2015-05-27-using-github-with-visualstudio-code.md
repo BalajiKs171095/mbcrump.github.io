@@ -53,7 +53,7 @@ Open [github.com](http://github.com) and create a Repo. Copy the path to the .gi
 
 ![image](/files/gitingithub.jpg)
 
-Navigate to the directory where your Visual Studio Code project is and add the following two lines (replace my .git with yours) : 
+Using the terminal, navigate to the location where your Visual Studio Code project is and type the following two commands (replace my .git project with yours) : 
 
 {% highlight text %}
 git remote add origin https://github.com/mbcrump/SampleProject.git
