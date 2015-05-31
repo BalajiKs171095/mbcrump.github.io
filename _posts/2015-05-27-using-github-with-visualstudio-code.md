@@ -6,6 +6,12 @@ tags: blog
 comments: true
 ---
 
+Some of my other articles about Visual Studio Code : 
+
+* [Using TypeScript with Visual Studio Code on OSX](http://michaelcrump.net/using-typescript-with-code/)
+* [Setting up Github with Visual Studio Code on OSX](http://michaelcrump.net/using-github-with-visualstudio-code/)
+* [Automatically Compile Your TypeScript Files with Visual Studio Code on OSX](http://michaelcrump.net/quick-tip-with-typescript-and-vscode/)
+
 ##Introduction
 
 [Visual Studio Code](https://code.visualstudio.com/) has built in Git support, but very few know how to use it on OSX with GitHub. Even in the [official docs](https://code.visualstudio.com/Docs/versioncontrol), there is only a few paragraphs on it. In this post, I'll show you how I set it up. 

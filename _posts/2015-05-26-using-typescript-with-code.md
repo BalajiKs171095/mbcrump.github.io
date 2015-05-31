@@ -6,6 +6,12 @@ tags: blog
 comments: true
 ---
 
+Some of my other articles about Visual Studio Code : 
+
+* [Using TypeScript with Visual Studio Code on OSX](http://michaelcrump.net/using-typescript-with-code/)
+* [Setting up Github with Visual Studio Code on OSX](http://michaelcrump.net/using-github-with-visualstudio-code/)
+* [Automatically Compile Your TypeScript Files with Visual Studio Code on OSX](http://michaelcrump.net/quick-tip-with-typescript-and-vscode/)
+
 ##Introduction
 
 [Visual Studio Code](https://code.visualstudio.com/) is powerful IDE that Microsoft released at Build 2015. There have been several questions regarding how to setup TypeScript with Visual Studio Code on OSX. I decided that I'd stop for a second and make a quick post showing you exactly how to do it. 
