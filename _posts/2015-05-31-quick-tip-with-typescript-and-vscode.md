@@ -10,6 +10,7 @@ Some of my other articles about Visual Studio Code :
 
 * [Using TypeScript with Visual Studio Code on OSX](http://michaelcrump.net/using-typescript-with-code/)
 * [Setting up Github with Visual Studio Code on OSX](http://michaelcrump.net/using-github-with-visualstudio-code/)
+* [Automatically Compile Your TypeScript Files with Visual Studio Code on OSX](http://michaelcrump.net/quick-tip-with-typescript-and-vscode/)
 
 ##Introduction
 
@@ -52,7 +53,7 @@ If you were already in the split-screen mode, then you should have noticed the c
 
 >Note: Since this is a Node app, Control-C will kill the process in the terminal window if you want to stop tsc from watching for file changes. 
 
-##Wrap-up
+##Like this Post?
 
-Thanks for reading this quick tip and if you have any questions or comments, then leave them below. 
+Thanks for reading and if you like this post, then share it with one of the buttons below. Also, feel free to leave a comment below. 
 
