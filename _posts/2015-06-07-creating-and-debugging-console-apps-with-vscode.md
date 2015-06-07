@@ -27,6 +27,8 @@ You will see the following options :
 
 ![image](/files/aspnet4osx.jpg)
 
+Select a "Console Application" using your up and down arrow keys and give it a name. It will scaffold the project for you. 
+
 Notice that it is asking you to run a couple of commands :
 
 {% highlight text %}
