@@ -45,7 +45,9 @@ If we list out the files contained in our Console application before running the
 * project.json
 * .gitignore (hidden)
 
-Change into the directory that has your console app and run the dnu restore command and you now have a project.lock.json file. Run the **dnu build** command and you see several error messages. 
+Change into the directory that has your console app and run the **dnu restore** command and you now have a project.lock.json file. 
+
+Run the **dnu build** command and you see several error messages. 
 
 *Note: You can safely ignore these for this release.*
 
