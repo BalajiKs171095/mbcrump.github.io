@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Format SD Card in OSX to FAT32
+title: Easily Format a SD Card in OSX to FAT32
 excerpt: Easily format your SD card to FAT32 in OSX
 tags: blog
 comments: true
