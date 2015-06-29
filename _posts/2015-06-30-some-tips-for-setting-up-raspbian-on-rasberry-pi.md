@@ -54,8 +54,8 @@ Mount the drive
 {% endhighlight %}
 If the drive is formatted in NTFS, install the following drivers then mount it: 
 {% highlight text %}
-	sudo apt-get install ntfs-3g
-	sudo mount -t ntfs-3g /dev/sda1 /media/usb
+sudo apt-get install ntfs-3g
+sudo mount -t ntfs-3g /dev/sda1 /media/usb
 {% endhighlight %}
 
 When you're done:
@@ -79,12 +79,12 @@ From your terminal, enter the following first to install the daemon :
 {% endhighlight %}	
 Now you can open a connection in the terminal by using, 
 {% highlight text %}
-	ftp
-	open <IP>
-	cd /to/whatever/directory
-	lcd /is/your/local/directory
-	put filename.zip
-	bye
+ftp
+open <IP>
+cd /to/whatever/directory
+lcd /is/your/local/directory
+put filename.zip
+bye
 {% endhighlight %}	
 This open the connection and changes to a directory on the pie, then your local file system and puts a file in it. 
 
@@ -92,14 +92,14 @@ This open the connection and changes to a directory on the pie, then your local 
 
 Run these commands to install RetroPie, this will allow you to emulate various consoles, etc. 
 {% highlight text %}
-	sudo apt-get upgrade -y git
-	sudo apt-get install -y git dialog
-	cd
-	git clone --depth=0 git://github.com/petrockblog/RetroPie-Setup.git
-	cd RetroPie-Setup
-	chmod +x retropie_setup.sh
-	sudo ./retropie_setup.sh 
-	sudo chown -R pi:pi /home/pi/RetroPie
+sudo apt-get upgrade -y git
+sudo apt-get install -y git dialog
+cd
+git clone --depth=0 git://github.com/petrockblog/RetroPie-Setup.git
+cd RetroPie-Setup
+chmod +x retropie_setup.sh
+sudo ./retropie_setup.sh 
+sudo chown -R pi:pi /home/pi/RetroPie
 {% endhighlight %}
 Take Option 1 during the setup process and exit out when it is finished. You can now place your ROMS in this directory. 
 {% highlight text %}
