@@ -15,7 +15,7 @@ Some of my other articles about Visual Studio Code :
 
 ##Introduction
 
-[Visual Studio Code](https://code.visualstudio.com/) is powerful IDE that Microsoft released at Build 2015. There have been several questions regarding how to setup TypeScript with Visual Studio Code on OSX. I decided that I'd stop for a second and make a quick post showing you exactly how to do it. 
+[Visual Studio Code](https://code.visualstudio.com/) is powerful editor that Microsoft released at Build 2015. There have been several questions regarding how to setup TypeScript with Visual Studio Code on OSX. I decided that I'd stop for a second and make a quick post showing you exactly how to do it. 
 
 ##Install TypeScript first
 
