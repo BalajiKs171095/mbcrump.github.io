@@ -8,7 +8,7 @@ share: true
 ---
 ##Article Info
 
-I’ve recently released an article on TDN title, "A Guided Tour of Windows 10 IoT Core". In it, I share how I easily setup Windows 10 IoT Core to work with my Raspberry Pi 2 board.
+I’ve recently released an article on TDN titled, "A Guided Tour of Windows 10 IoT Core". In it, I share how I easily setup Windows 10 IoT Core to work with my Raspberry Pi 2 board.
 
 ###Intro
 
