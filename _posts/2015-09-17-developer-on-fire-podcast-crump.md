@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My appearance on the Developer On Fire Podcast"
-excerpt: "I was on a podcast with other folks from CodeStock, where we talked about mobile development. "
+excerpt: "Here I talked about mobile development and other topics. "
 tags: [xamarin, mobile, android, ios, windowsphone]
 link: http://developeronfire.com/Podcast/Episodes/michael-crump-family-first-with-passion-for-tech
 share: true
