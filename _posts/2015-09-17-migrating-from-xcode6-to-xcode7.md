@@ -31,6 +31,8 @@ $(SDKROOT)/Developer/Library/Frameworks
 $(inherited)
 {% endhighlight %}
 
+$(SDKROOT)/Developer/Library/Frameworks $(inherited)
+
 ![image](/files/searchpathentries.jpg)
 
 Deleting those entries in my older project then removed the warning. I did not have to make any changes to the other target. 
