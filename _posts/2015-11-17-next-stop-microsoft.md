@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Next Stop - Microsoft
+title: Next Stop Microsoft
 excerpt: The next chapter of my career is going to be with Microsoft. 
 tags: blog
 comments: true
 ---
+##Next Stop: Microsoft
 
 Over the past four years, I've had the opportunity to work at an innovative company with some of the coolest, [smartest people](http://developer.telerik.com/community/#who-we-are) around. [Telerik](http://www.telerik.com) gave me a shot to grow and to be involved in great projects that many would only dream of. Telerik helped put me on the map and I am forever grateful to them for giving me the oppurtunity. Leaving is tough, but another adventure awaits.
 
