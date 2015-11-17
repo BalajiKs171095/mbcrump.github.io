@@ -6,7 +6,6 @@ tags: blog
 comments: true
 ---
 
-
 Over the past four years, I've had the opportunity to work at an innovative company with some of the coolest, [smartest people](http://developer.telerik.com/community/#who-we-are) around. [Telerik](http://www.telerik.com) gave me a shot to grow and to be involved in great projects that many would only dream of. Telerik helped put me on the map and I am forever grateful to them for giving me the oppurtunity. Leaving is tough, but another adventure awaits.
 
 With that being said, I'm excited to announce that I'll be joining Microsoft at the end of November, working on [Project Islandwood](https://dev.windows.com/en-us/bridges/ios). With this new oppurtunity comes challenges, but I'm ready for my next undertaking. I look forward to pushing myself to be better in all aspects of my new position. If you're an iOS developer, then stay tuned because we have exciting annoucements coming! 
