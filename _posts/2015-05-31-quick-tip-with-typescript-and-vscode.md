@@ -13,13 +13,13 @@ Some of my other articles about Visual Studio Code :
 * [Automatically Compile Your TypeScript Files with Visual Studio Code on OSX](http://michaelcrump.net/quick-tip-with-typescript-and-vscode/)
 * [Creating and Debugging C# Console Apps with Visual Studio Code on OSX](http://michaelcrump.net/creating-and-debugging-console-apps-with-vscode/)
 
-##Introduction
+## Introduction
 
 I've been using [Visual Studio Code](https://code.visualstudio.com/) since it was released at Build 2015. As I've been using this powerful editor, I've come across a couple of ways to make it even better and I thought I'd share it with the community. In this post, we are going to make our .ts (TypeScript) files auto-compile instead of performing the **Build** command every time we make changes to our .ts files. 
 
 Before we get started, simply follow [this post](http://michaelcrump.net/using-typescript-with-code/) and make sure TypeScript is installed and working. 
 
-##Split-Screen FTW
+## Split-Screen FTW
 
 We are going to use the split-screen functionality of Visual Studio Code in order to see both of our TypeScript and generated JavaScript file. Simply press the button highlighted below or press CMD-\ : 
 
@@ -29,7 +29,7 @@ Put your TypeScript file that you are currently working on in the left panel and
 
 ![image](/files/tscnotautocompiling.gif)
 
-##A Little Help from TSC
+## A Little Help from TSC
 
 Navigate to your Visual Studio Code Folder and open a terminal window here and enter the following command:
 
@@ -46,7 +46,7 @@ message TS6042: Compilation complete. Watching for file changes.
 {% endhighlight %}
 
  
-##Switch Back to Visual Studio Code
+## Switch Back to Visual Studio Code
 
 If you were already in the split-screen mode, then you should have noticed the change in your JavaScript file already. As you begin typing, it will automatically compile your TypeScript file as shown below. 
 
@@ -54,7 +54,7 @@ If you were already in the split-screen mode, then you should have noticed the c
 
 >Note: Since this is a Node app, Control-C will kill the process in the terminal window if you want to stop tsc from watching for file changes. 
 
-##Like this Post?
+## Like this Post?
 
 Thanks for reading and if you like this post, then share it with one of the buttons below. Also, feel free to leave a comment below. 
 

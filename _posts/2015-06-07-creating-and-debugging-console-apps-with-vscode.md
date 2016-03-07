@@ -13,7 +13,7 @@ Some of my other articles about Visual Studio Code :
 * [Automatically Compile Your TypeScript Files with Visual Studio Code on OSX](http://michaelcrump.net/quick-tip-with-typescript-and-vscode/)
 * [Creating and Debugging C# Console Apps with Visual Studio Code on OSX](http://michaelcrump.net/creating-and-debugging-console-apps-with-vscode/)
 
-##Grab the Bits
+## Grab the Bits
 
 Install [Visual Studio Code](https://code.visualstudio.com/) and [ASP.NET 5](https://github.com/aspnet/Home) for OSX. The Visual Studio installer is straight-forward, but make sure you read the release notes on how to install ASP.NET 5 on a Mac. 
 
@@ -59,7 +59,7 @@ Run the **dnu build** command and you see several error messages.
 
 Type **dnx . run** and the Program.cs file will display "**Hello World**" in the terminal. 
 
-##Switch over to Visual Studio Code
+## Switch over to Visual Studio Code
 
 Navigate to your Console Project and open it in Visual Studio Code or you can simply type  "**code .**" if your already inside the directory that you want opened. 
 
@@ -69,7 +69,7 @@ You can run the app by pressing CMD-Shift-P and selecting "**Run**". This will o
 
 ![image](/files/runconsoleappvscode.jpg)
 
-##Digging Deeper
+## Digging Deeper
 
 We actually want to build and debug our app, so switch over to **Program.cs** and press CMD-Shift-B to build our app and you will be asked to configure the **Task Runner**. Copy and Paste the following text into the file that it opens. (called tasks.json)
 
@@ -155,7 +155,7 @@ Taking a look at the output window, we will see :
 MSBUILD: error MSBUILD0003: Please specify the project or solution file to build, as none was found in the current directory.
 {% endhighlight %}
 
-##We are Missing the .csproj file!
+## We are Missing the .csproj file!
 
 We simply need to create a file and call it ConsoleApplication.csproj. I opened a ConsoleProject with Visual Studio and used the following code:
 
@@ -200,7 +200,7 @@ Tweak the boilerplate code if you want to examine how the debugger validates wha
 ![image](/files/consoleappthatbeeps.jpg)
 
 
-##Like this Post?
+## Like this Post?
 
 As always, thanks for reading and smash one of those share buttons to give this post some love if you found it helpful. Also, feel free to leave a comment below. 
 

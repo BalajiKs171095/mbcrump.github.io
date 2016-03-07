@@ -6,13 +6,13 @@ tags: [visualstudio, dotnet, csharp]
 link: https://www.youtube.com/watch?v=s5jWIzX-uMM
 share: true
 ---
-##Intro
+## Intro
 
 Some developers are not yet ready to take the plunge to C# 6, whereas others would like to play with C# 6 without installing Visual Studio 2015. In this episode, I address both issues. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/s5jWIzX-uMM" frameborder="0" allowfullscreen></iframe>
 
-##For those looking for a quick breakdown: 
+## For those looking for a quick breakdown: 
 
 **How do I disable C# 6 Support in Visual Studio 2015?**
 
@@ -24,6 +24,6 @@ Answer: You can set the language feature for each project separately by going to
 
 As described in the video, you can use [tryroslyn.azurewebsites.net](http://tryroslyn.azurewebsites.net/). This is what I used for testing new C# 6 features as Visual Studio 2015 was being built.  
 
-##Wrap-up
+## Wrap-up
 
 I hope this clears things up and don't forget to email me any question that you would like answered at michael@michaelcrump.net. 

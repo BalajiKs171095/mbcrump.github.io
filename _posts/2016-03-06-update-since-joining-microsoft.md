@@ -6,8 +6,6 @@ tags: blog
 comments: true
 ---
 
-## Update since joining Microsoft
-
 It has been since [November 17th, 2015](http://michaelcrump.net/next-stop-microsoft/) since I have posted on my personal blog. It has been a while and I've had a number of people reaching out to me from the community (which makes me very happy). So where the heck have I been? I decided along with my wife, that it was time for a change in location. This made it very easy when Microsoft needed me in Washington. Since the move, I've spent a lot of time learning the job, culture and area. In the meantime, I've sold my house in Alabama and am currently renting a house in Education Hill in Redmond, WA. The area has the top schools in the nation and that was a big factor in the decision as I have two children.  
  
 

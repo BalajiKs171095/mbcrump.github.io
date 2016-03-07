@@ -6,7 +6,7 @@ tags: [git, mac, sourcecontrol]
 comments: true
 ---
 
-###Introduction
+### Introduction
 
 I've seen a lot of questions on the web about how to update your Mac client to the latest version which contains the fix for the security vulnerability announced last week. 
 <br><br>
@@ -32,7 +32,7 @@ and it returns
 	{% endhighlight %}		
 Then you are going to want to modify your PATH to make git look for the official distro (which we will install in just a sec) to just /usr/local/bin.<br>
 
-##Let's Fix it and switch Git Clients
+## Let's Fix it and switch Git Clients
 
 Install [Homebrew](http://brew.sh) if you haven't already. It is easy just copy and paste this in the terminal window. 
 	{% highlight text %}

@@ -6,12 +6,12 @@ tags: blog
 comments: true
 ---
 
-##Intro
+## Intro
 
 
 I thought it would be interesting to share the software update process on the Apple Watch. So here goes : 
 
-##Updating your Apple Watch
+## Updating your Apple Watch
 
 You will begin by seeing their is an update available on your phone. 
 
@@ -54,7 +54,7 @@ Once it is complete, you will see if the update was successful or not.
 
 ![image](/files/applewatch11.png)
 
-##Wrap-up
+## Wrap-up
 
 I know this is geeky, but I'm sure some people are interested in seeing this before they update their $400 or more watch. :)
 

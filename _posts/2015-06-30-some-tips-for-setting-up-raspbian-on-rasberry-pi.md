@@ -6,11 +6,11 @@ tags: blog
 comments: true
 ---
 
-##Introduction
+## Introduction
 
 I bought a Raspberry Pi a couple of months ago and have been setting up Kodi, EmulationStation and more. If you are new to Raspberry Pi and especially the Raspbian distro, then some of the commands will be useful as you get started with Linux. 
 
-##APT Commands
+## APT Commands
 
 From your terminal, enter the following to make sure you are always working with the latest apt package : 
 {% highlight text %}
@@ -18,14 +18,14 @@ From your terminal, enter the following to make sure you are always working with
 {% endhighlight %}
 You will be using this to install all sorts of things. 
 
-##Install Kodi (XBMC)
+## Install Kodi (XBMC)
 
 Kodi is basically Xbox Media Center. You want this if you plan on playing music, video, etc : 
 {% highlight text %}
 	sudo apt-get install kodi
 {% endhighlight %}	
 
-##Get your IP Address
+## Get your IP Address
 
 From your terminal, enter the following : 
 {% highlight text %}
@@ -34,7 +34,7 @@ From your terminal, enter the following :
 	
 You should see your IP address now. You will need this to SSH, FTP and so forth. 
 
-##Mount a Drive (USB External)
+## Mount a Drive (USB External)
 
 From your terminal, enter the following : 
 
@@ -62,7 +62,7 @@ When you're done:
 {% highlight text %}
 	sudo umount /media/usb
 {% endhighlight %}
-##SSH into your Pi
+## SSH into your Pi
 
 From your terminal, enter the following : 
 {% highlight text %}
@@ -71,7 +71,7 @@ From your terminal, enter the following :
 where <IP> is your IP address that you got from the first code snippet in this post. 
 
 
-##FTP into your Pi
+## FTP into your Pi
 
 From your terminal, enter the following first to install the daemon : 
 {% highlight text %}
@@ -88,7 +88,7 @@ bye
 {% endhighlight %}	
 This open the connection and changes to a directory on the pie, then your local file system and puts a file in it. 
 
-##Install RetroPie
+## Install RetroPie
 
 Run these commands to install RetroPie, this will allow you to emulate various consoles, etc. 
 {% highlight text %}
@@ -112,7 +112,7 @@ You can now connect a joypad and run :
 to start playing your games. 
 
 	
-##Wrap-up
+## Wrap-up
 
 This is kind of a brain-dump of commands that I needed when I first got started. I'm sure I'll be coming back to it at some point and hopefully you found it useful. 
 

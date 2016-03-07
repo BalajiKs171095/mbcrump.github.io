@@ -6,12 +6,12 @@ tags: blog
 comments: true
 ---
 
-##The Problem
+## The Problem
 
 I've been working with the Raspberry Pi 2 and wanted to install [NOOBS](https://www.raspberrypi.org/downloads/) on my SD Card to play with Linux. Unforunately, the SD Card that I had would not format to FAT32. I tried using Disk Utility as well as the offical [SDCard application](https://www.sdcard.org/downloads/formatter_4/eula_mac/index.html) for OSX. Both applications would format the card, but I could not click on it in finder and be able to paste files on it. I found an easy fix that I thought I'd share. 
 
 
-##The Solution
+## The Solution
 
 Begin by running the following command :  
 
@@ -38,6 +38,6 @@ You can tell it worked, by running the diskutil list command again and it should
 ![image](/files/diskutilfinalversionfat32.jpg)
 
 
-##Like this Post?
+## Like this Post?
 
 Thanks for reading and I hope this helped you save some time!

@@ -6,7 +6,7 @@ tags: [xamarin, mobile, android, ios, windowsphone]
 link: http://developeronfire.com/Podcast/Episodes/michael-crump-family-first-with-passion-for-tech
 share: true
 ---
-##Podcast Info
+## Podcast Info
 
 In this episode of [Developer On Fire](http://developeronfire.com/), I talk with [Dave Rael](http://www.twitter.com/raelyard) about various mobile development topics and what I'm exciting about in tech. 
 

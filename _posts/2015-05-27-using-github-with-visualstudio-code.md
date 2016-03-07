@@ -13,11 +13,11 @@ Some of my other articles about Visual Studio Code :
 * [Automatically Compile Your TypeScript Files with Visual Studio Code on OSX](http://michaelcrump.net/quick-tip-with-typescript-and-vscode/)
 * [Creating and Debugging C# Console Apps with Visual Studio Code on OSX](http://michaelcrump.net/creating-and-debugging-console-apps-with-vscode/)
 
-##Introduction
+## Introduction
 
 [Visual Studio Code](https://code.visualstudio.com/) has built in Git support, but very few know how to use it on OSX with GitHub. Even in the [official docs](https://code.visualstudio.com/Docs/versioncontrol), there is only a few paragraphs on it. In this post, I'll show you how I set it up. 
 
-##Adding your project to GitHub
+## Adding your project to GitHub
 
 Switch to your project and hit the source control button as shown below. 
 
@@ -32,7 +32,7 @@ Press the "Initialize Git Repository" button and include a commit message (1) an
 ![image](/files/gitinitialcommitvscode.jpg)
 
 
-##Your Project is Under Git Source Control, now What?
+## Your Project is Under Git Source Control, now What?
 
 If you navigate back to your project, then you will see a new folder called ".git" and a config file that contains the following :
 
@@ -54,7 +54,7 @@ This is typically the part where you begin a Google Search because you can't fig
 
 ![image](/files/cantcommittogitvscode.jpg)
 
-##Time to Fix it!
+## Time to Fix it!
 
 Open [github.com](http://github.com) and create a Repo. Copy the path to the .git for later use. 
 
@@ -95,7 +95,7 @@ You can now switch back to Git in Visual Studio Code and perform git operations 
 
 ![image](/files/maintsmodified.jpg)
 
-##Wrap-up
+## Wrap-up
 
 Thanks for reading and if you have any questions or comments, then leave them below. If you are interested in my previous article on Visual Studio Code with TypeScript, then click [here](http://michaelcrump.net/using-typescript-with-code/). 
 

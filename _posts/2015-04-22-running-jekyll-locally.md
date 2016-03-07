@@ -6,7 +6,7 @@ tags: [jekyll, blog, ruby]
 comments: true
 ---
 
-###Introduction
+### Introduction
 
 I recently hit a stumbling block when trying to serve my Jekyll blog locally. After I ran the command 'bundle exec jekyll serve', I noticed that my local server would spin up, but the links would all point back to http://michaelcrump.net/whatever-blog-post. When they should be pointing to http://127.0.0.1:4000/whatever-blog-post.
 <br><br>

@@ -6,7 +6,7 @@ tags: [visualstudio, dotnet, csharp, xamarin]
 link: https://www.youtube.com/watch?v=K_c0Wcd-MCE
 share: true
 ---
-##Intro to MVVM
+## Intro to MVVM
 
 The [Model-View-ViewModel](https://msdn.microsoft.com/en-us/library/Hh848246.aspx) pattern provided a clean separation of concerns between the user interface controls and their logic. Several reasons you would want to implement it are: 
 
@@ -20,6 +20,6 @@ It should be no surprise that users of Xamarin will want to use this in their ne
 <iframe width="560" height="315" src="https://www.youtube.com/embed/K_c0Wcd-MCE" frameborder="0" allowfullscreen></iframe>
 
 
-##Wrap-up
+## Wrap-up
 
 I hope this clears things up and don't forget to leave comments in the YouTube comment section. Feel free to email me any question that you would like answered at michael@michaelcrump.net. 

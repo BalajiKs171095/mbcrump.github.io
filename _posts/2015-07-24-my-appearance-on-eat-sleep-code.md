@@ -6,7 +6,7 @@ tags: [xamarin, mobile, android, ios, windowsphone]
 link: http://developer.telerik.com/content-types/podcast/eat-sleep-code-season-1-episode-3/
 share: true
 ---
-##Podcast Info
+## Podcast Info
 
 On this episode of Eat Sleep Code, guests Michael Crump and Jen Looper discuss mobile development and e-books. We learn what it’s like to try to enter the app stores and what tools are needed to get started in mobile development.
 

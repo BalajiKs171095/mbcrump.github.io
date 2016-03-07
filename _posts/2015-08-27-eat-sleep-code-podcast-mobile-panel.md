@@ -6,7 +6,7 @@ tags: [xamarin, mobile, android, ios, windowsphone]
 link: http://developer.telerik.com/content-types/podcast/mobile-development-panel-discussion/
 share: true
 ---
-##Podcast Info
+## Podcast Info
 
 On this episode of Eat Sleep Code, Ed Charbeneau and guests David Giard, Sam Basu, and Michael Crump share their mobile development experiences in a panel discussion. This episode was recorded with a live audience at Codestock 2015.
 
