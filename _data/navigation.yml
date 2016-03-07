@@ -1,11 +1,10 @@
 # Site navigation links
 
-- title: Posts
+- title: About
+  url: /about/
+
+- title: Sample Posts
   url: /posts/
 
-- title: RSS
-  url: http://michaelcrump.net/feed
-  
-- title: About Me
-  url: http://about.me/mbcrump
-  
+- title: Theme Setup
+  url: /theme-setup/
