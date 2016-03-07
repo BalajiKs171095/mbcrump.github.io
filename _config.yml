@@ -15,6 +15,7 @@ sass:
   style: compressed
 gems:
   - jekyll-sitemap
+  - jekyll-gist
 
 kramdown:
   auto_ids: true
@@ -22,8 +23,7 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   use_coderay: false
-  parse_block_html: true
-  syntax_highlighter: rouge
+
 
 
 # Site owner
