@@ -9,6 +9,7 @@ url: 		      http://michaelcrump.net
 
 permalink:   /:categories/:title/
 markdown:    kramdown
+future: true
 highlighter: rouge
 sass:
   sass_dir: _sass
