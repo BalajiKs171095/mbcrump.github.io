@@ -9,7 +9,6 @@ url: 		      http://michaelcrump.net
 
 permalink:   /:categories/:title/
 markdown:    kramdown
-highlighter: rouge
 sass:
   sass_dir: _sass
   style: compressed
@@ -23,6 +22,8 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   use_coderay: false
+  parse_block_html: true
+  syntax_highlighter: rouge
 
 
 
