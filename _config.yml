@@ -9,12 +9,7 @@ url: 		      http://michaelcrump.net
 
 permalink:   /:categories/:title/
 markdown:    kramdown
-<<<<<<< HEAD
-future: true
-highlighter: rouge
-=======
 highlighter: pygments
->>>>>>> parent of 5f68216... change pigments to rogue
 sass:
   sass_dir: _sass
   style: compressed
