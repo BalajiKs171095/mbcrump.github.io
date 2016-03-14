@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Resolution Unable to Activate Windows Store App 
+title: Unable to Activate Windows Store App 
 excerpt: 
-tags: 
+tags: blog
 comments: true
 ---
+
 
 ### Introduction
 
