@@ -1,9 +1,9 @@
 ---
 layout: post
-title: “2016 Apple Design Awards Complete List”
-excerpt: "A complete list of winners from WWDC 2016 Design Awards”
+title: 2016 Apple Design Awards Complete List
+excerpt: A complete list of winners from WWDC 2016 Design Awards
 tags: [ios, wwdc]
-link: https://github.com/mbcrump/AppleDesignWinners2016
+link: https://github.com/mbcrump/AppleDesignWinners2016/
 share: true
 ---
 
