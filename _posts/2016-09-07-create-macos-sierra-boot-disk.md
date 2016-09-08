@@ -10,7 +10,7 @@ comments: true
 
 The GM release for macOS Sierra came out today and if you're a registered developer then you install it now. I decided that I'd like to create a USB bootable drive and install it on a freshly formatted hard drive. Here are the steps that I took. 
 
-*Note: These instructions will work when it is publically released as well.*
+*Note: These instructions will work when it is publicly released as well.*
 
 I began by downloading the installer directly from the store as shown below:
 
@@ -34,7 +34,7 @@ You should see the following inside of the terminal app:
 
 ![image](/files/terminalsierra.jpg)
 
-Once everything is complete, you should have a bootable USB drive that contains the final build of macOS Sierra. Go ahead and reboot your computer and hold down the Option key and you can select "Install macOS Sierra". 
+Once everything is complete, you should have a bootable USB drive that contains the final build of macOS Sierra. Go ahead and reboot your computer and hold down the **Option** key and you can select "Install macOS Sierra". 
 
 That is all there is to it! 
 
