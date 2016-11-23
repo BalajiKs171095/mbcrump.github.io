@@ -2,7 +2,7 @@
 layout: post
 title: "Privacy Policy"
 excerpt: "Privacy Policy"
-draft: true
+published: false
 ---
 
 ## Privacy policy
