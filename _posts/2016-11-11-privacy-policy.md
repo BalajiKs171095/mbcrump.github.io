@@ -2,7 +2,6 @@
 layout: post
 title: "Privacy Policy"
 excerpt: "Privacy Policy"
-tags: [visualstudio, dotnet, csharp, windows, design, ux]
 ---
 
 ##Privacy policy
