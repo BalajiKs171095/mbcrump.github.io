@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Invert Mouse Scroll Wheel on Win 10 using Bootcamp)"
-excerpt: "Invert Mouse Scroll Wheel on Win 10 using Bootcamp"
+title: "Invert Mouse Scroll Wheel on Win 10"
+excerpt: "Invert Mouse Scroll Wheel on Win 10"
 tags: [visualstudio, dotnet, csharp, windows, xaml, uwp]
 share: true
 ---
