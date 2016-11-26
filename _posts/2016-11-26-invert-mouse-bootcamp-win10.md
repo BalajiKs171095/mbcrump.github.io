@@ -15,7 +15,7 @@ If you're using Windows 10 and would like the scroll wheel inverted, then open u
 
 This is particularly useful when you are used to using a Mac and running Windows 10 in bootcamp. I would also suggest opening "Mouse and Touchpad" settings and select "No delay (always on)" for the delay settings under Touchpad. 
 
-![image](/files/touchpadwin10.png)
+![image](/files/touchpadwin10.PNG)
 
 ## Like this Post?
 
