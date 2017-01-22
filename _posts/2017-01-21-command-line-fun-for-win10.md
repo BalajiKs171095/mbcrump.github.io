@@ -14,15 +14,15 @@ If you've used a Mac then more than likely you're used to using terminal to do m
 
 Just type 'bash' from the search box and take the first result. You can also install it with the Add/Remove features, but we want more command line fun right? 
 
-![image](/files/searchbash.PNG)
+![image](/files/searchbash.png)
 
 It will pop up this command prompt and hit 'Y' and it will download it from the Windows Store. 
 
-![image](/files/bashbeta.PNG)
+![image](/files/bashbeta.png)
 
 You'll need a UNIX username and password. You may want to write this down if you're like me. 
 
-![image](/files/bashunix.PNG)
+![image](/files/bashunix.png)
 
 ##Updating
 
@@ -38,7 +38,7 @@ The very first thing that I do is update my apt-get package index.
 
 If you're wondering what apt-get is, it allows you to use Ubuntu's Advanced Package Tool (APT) to download or modify programs. More info can be found [here](https://help.ubuntu.com/12.04/serverguide/apt-get.html). Your screen will look like the following after running this command. 
 
-![image](/files/bashaptget.PNG)
+![image](/files/bashaptget.png)
 
 ##Install and use Git 
 
@@ -54,7 +54,7 @@ Nice! It provides the command that you need to install git. So what are you wait
 
 Success! Go ahead and run git and you should see the following: 
 
-![image](/files/sudogitinstalled.PNG)
+![image](/files/sudogitinstalled.png)
 
 If I wanted to clone a directory from the command-line then I would do the following: 
 
@@ -67,7 +67,7 @@ Change directory back to my home (depending on where you are at), make a directo
 
 Yeah! It completed successfully! All from the command-line on Windows 10. No need for the GitHub client anymore. 
 
-![image](/files/clonerepo.PNG)
+![image](/files/clonerepo.png)
 
 ##Install Node.js and NPM
 
