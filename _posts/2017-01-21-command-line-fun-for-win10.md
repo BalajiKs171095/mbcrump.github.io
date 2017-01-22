@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Command Line Fun for Windows 10 Users"
-excerpt: "Command Line Fun for Windows 10 Users"
+excerpt: "Learn how to use Bash in Windows 10"
 tags: [commandline, windows, bash]
 share: true
+comments: true
 ---
 
 ## Intro
