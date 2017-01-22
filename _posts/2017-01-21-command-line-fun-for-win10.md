@@ -10,7 +10,7 @@ share: true
 
 If you've used a Mac then more than likely you're used to using terminal to do many tasks. Everything from installing programs, pushing files to GitHub or local file manipulation. If you're a Windows user then more than likely you've heard about Bash, but haven't used it yet. In this short guide, I'm going to walk you through how I use Bash on Windows 10 just like I used to use terminal on Mac. 
 
-##Installation
+## Installation
 
 Just type 'bash' from the search box and take the first result. You can also install it with the Add/Remove features, but we want more command line fun right? 
 
@@ -24,7 +24,7 @@ You'll need a UNIX username and password. You may want to write this down if you
 
 ![image](/files/bashunix.png)
 
-##Updating
+## Updating
 
 The first thing that I'm going to do is update the apt-get package index and install Git, Node and NPM. Switch to superuser mode by typing the following: 
 
@@ -40,7 +40,7 @@ If you're wondering what apt-get is, it allows you to use Ubuntu's Advanced Pack
 
 ![image](/files/bashaptget.png)
 
-##Install and use Git 
+## Install and use Git 
 
 If you simply type git then you will see the following: 
 
@@ -69,7 +69,7 @@ Yeah! It completed successfully! All from the command-line on Windows 10. No nee
 
 ![image](/files/clonerepo.png)
 
-##Install Node.js and NPM
+## Install Node.js and NPM
 
 I'd like to wrap up by installing Node.js and NPM. If you don't know what Node.js is, then I'd encourage you to spend some time reading about it [here](https://nodejs.org/en/). Since you are following this guide, you won't need the installer found on that page. 
 
