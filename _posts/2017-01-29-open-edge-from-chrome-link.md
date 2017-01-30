@@ -35,7 +35,7 @@ You can find more by open the registry and searching for "URL:" as shown below:
 
 ## Through a Hyperlink
 
-You can also make a UWP app launch through a web browser. I'm going to use Chrome in this sample to open MS Edge. All you need to do is simply add the following HTML to your page and obviously replace the URL to whatever site that you'd like to loaad. 
+You can also make a UWP app launch through a web browser. I'm going to use Chrome in this sample to open MS Edge. All you need to do is simply add the following HTML to your page and obviously replace the URL to whatever site that you'd like to load. 
 
 	<a href="microsoft-edge:http://www.michaelcrump.net">My site</a>
 
