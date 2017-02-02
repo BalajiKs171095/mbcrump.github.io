@@ -9,7 +9,14 @@ comments: true
 
 ## Intro
 
-I needed a quick way to pop a Toast Notification in a WPF app using Win 10 APIs. I started by taking a look at this [sample](https://code.msdn.microsoft.com/windowsdesktop/sending-toast-notifications-71e230a2) and decided to strip away some unnecessary code that I didn't need. I landed with [this version](https://github.com/mbcrump/DesktopToast) which doesn't subscribe to the ToastActivated, ToastDismissed or ToastFailed event handlers. Here is a demo of it in action. 
+I needed a quick way to pop a Toast Notification in a WPF app using Win 10 APIs. I started by taking a look at this [sample](https://code.msdn.microsoft.com/windowsdesktop/sending-toast-notifications-71e230a2) and decided to strip away some unnecessary code that I didn't need. I landed with [this version](https://github.com/mbcrump/DesktopToast) which doesn't subscribe to the ToastActivated, ToastDismissed or ToastFailed event handlers. Keep in mind that you'll need to add references to the following files if creating this from scratch:
+
+* Browse and find the following file: C:\Program Files (x86)\Windows Kits\10\UnionMetadata\winmd. Add it to your project as a reference. Note: You will need to change the filter to “All Files”.
+* Browse and find the directory “C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETCore\v4.5”. Add System.WindowsRuntime.dll to your project.
+
+That's it. 
+
+Here is a demo of it in action. 
 
 ![image](/files/toast.gif)
 
