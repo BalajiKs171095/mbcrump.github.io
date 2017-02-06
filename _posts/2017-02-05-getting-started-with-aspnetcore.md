@@ -83,17 +83,26 @@ To create a new console app, I typed
 
 	dotnet new -t console
 
-If I didn't specify it then it would have created a console app anyways, but we need to get into the habit of specifying the type. I now have a Program.cs file and a .json file. If I examine the code, then it says "Hello World". 
+If I didn't specify it then it would have created a console app anyways, but we need to get into the habit of specifying the type. I now have a Program.cs file and a .json file. If I examine the Program.cs, then it has the following code:
 
-Now we need to restore the packages (dependencies) :
+	using System;
+	
+	namespace ConsoleApplication
+	{
+	    public class Program
+	    {
+	        public static void Main(string[] args)
+	        {
+	            Console.WriteLine("Hello World!");
+	        }
+	    }
+	}
 
-	dotnet restore
+You can modify the code or leave it as is. I'm going to leave it as is. 
 
-Finally, let's build it with :
+Now we need to restore the packages (dependencies) by using `dotnet restore` and we can build it with `dotnet build`. 
 
-	dotnet build
-
-Now we need to run it. So I typed 'dotnet run' and the application returned the following:
+Now we need to run it. So I typed `dotnet run` and the application returned the following:
 
 	C:\Users\mbcrump\helloworld>dotnet run
 	Project helloworld (.NETCoreApp,Version=v1.0) was previously compiled. Skipping compilation.
