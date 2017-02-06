@@ -28,7 +28,7 @@ To recap, you installed the following items (depending on your VS version and ar
 
 ![image](/files/installercore.png)
 
-#Verifying Installation
+## Verifying Installation
 
 You can easily verify it was installed properly by opening a command prompt and typing: 
 
@@ -93,11 +93,7 @@ Finally, let's build it with :
 
 	dotnet build
 
-Now we need to run it. So I used:
-
-	dotnet run
-
-and the application returned the following:
+Now we need to run it. So I typed 'dotnet run' and the application returned the following:
 
 	C:\Users\mbcrump\helloworld>dotnet run
 	Project helloworld (.NETCoreApp,Version=v1.0) was previously compiled. Skipping compilation.
