@@ -42,7 +42,7 @@ Create a file named Account.cs and drop this in:
 {% highlight csharp %}
 public class Account
 {
-	public bool Active { get; set; }
+    public bool Active { get; set; }
     public DateTime CreatedDate { get; set; }
     public string Email { get; set; }
     public IList<string> Roles { get; set; }
@@ -54,7 +54,7 @@ And add the following to your Main method in Program.cs
 {% highlight csharp %}
 Account account = new Account
 {
-	Email = "michael@blah.com",
+    Email = "michael@blah.com",
     Active = true,
     CreatedDate = new DateTime(2017, 2, 20, 0, 0, 0, DateTimeKind.Utc),
     Roles = new List<string>
