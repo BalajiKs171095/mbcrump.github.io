@@ -37,6 +37,8 @@ Let's setup a situation where the package isn't included and we'll need to add i
 
 Create a file named Account.cs and drop this in: 
 
+{% highlight csharp %}
+
 	public class Account
     {
         public bool Active { get; set; }
@@ -44,6 +46,8 @@ Create a file named Account.cs and drop this in:
         public string Email { get; set; }
         public IList<string> Roles { get; set; }
     } 
+
+{% endhighlight %}
 
 And add the following to your Main method in Program.cs
 
