@@ -31,9 +31,9 @@ If we add `Console.WriteLine("Hello World");` to the Main method, then we don't 
 
 You can browse out to the [source code](https://github.com/dotnet/corefx/tree/master/src) to see foundation class libraries in .NET Core. You can also check out [Package search](http://packagesearch.azurewebsites.net/) to help you find .NET Core class libraries. 
 
-## What if you need to add a package reference?
+## What if you need to add a package reference that isn't available by default?
 
-Let's setup a situation where the package isn't included and we'll need to add it. I'll use a quick and dirty sample of Json.net. 
+Let's setup a situation where the package isn't included and we'll need to add it. I'll use a quick and dirty sample of Json.NET. 
 
 Create a file named Account.cs and drop this in: 
 
@@ -89,11 +89,11 @@ Nice! It has been added. You can look inside project.json and see it being refer
 	  }
 	}
 
-The thing to keep in mind here is that you could have actually added the dependency here as shown below:
+The thing to keep in mind here is that you could have actually added the dependency reference directly in the project.json file as shown below:
 
 ![image](/files/newtonsoft.gif)
 
-This works just like Node.js if you are familiar with that. 
+This is very similar to Node.js if you are familiar with that. 
 
 ## Wrap-up
 
