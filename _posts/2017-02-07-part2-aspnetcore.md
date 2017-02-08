@@ -40,7 +40,6 @@ Let's setup a situation where the package isn't included and we'll need to add i
 Create a file named Account.cs and drop this in: 
 
 {% highlight csharp %}
-
 public class Account
 {
 	public bool Active { get; set; }
@@ -48,13 +47,11 @@ public class Account
     public string Email { get; set; }
     public IList<string> Roles { get; set; }
 } 
-
 {% endhighlight %}
 
 And add the following to your Main method in Program.cs
 
 {% highlight csharp %}
-
 Account account = new Account
 {
 	Email = "michael@blah.com",
@@ -69,7 +66,6 @@ Account account = new Account
 
  string json = JsonConvert.SerializeObject(account, Formatting.Indented);
  Console.WriteLine(json);
-
 {% endhighlight %}
 
 Simple enough! The JsonConvert call and Formatting should have a red squiggly line. You can now simply add the package as shown below: 
