@@ -9,6 +9,8 @@ comments: true
 
 Disclaimer: *I am **not** on the .NET Core Team*. I used the tools available publicly.
 
+The working source code for this project can be found [here](https://github.com/mbcrump/DotNetCorePlayground). 
+
 ## Intro
 
 So far in this mini-series, I've walked you through [Installing .NET Core on a Windows box and learning some commands and creating a Console application](http://michaelcrump.net/getting-started-with-aspnetcore/). In this post, I'm going to walk you through the Visual Studio templates for .NET Core. 
@@ -39,32 +41,36 @@ Create a file named Account.cs and drop this in:
 
 {% highlight csharp %}
 
-	public class Account
-    {
-        public bool Active { get; set; }
-        public DateTime CreatedDate { get; set; }
-        public string Email { get; set; }
-        public IList<string> Roles { get; set; }
-    } 
+public class Account
+{
+	public bool Active { get; set; }
+    public DateTime CreatedDate { get; set; }
+    public string Email { get; set; }
+    public IList<string> Roles { get; set; }
+} 
 
 {% endhighlight %}
 
 And add the following to your Main method in Program.cs
 
-	Account account = new Account
-    {
-         Email = "michael@blah.com",
-         Active = true,
-         CreatedDate = new DateTime(2017, 2, 20, 0, 0, 0, DateTimeKind.Utc),
-         Roles = new List<string>
-         {
-              "User",
-              "Admin"
-         }
-     };
+{% highlight csharp %}
 
-     string json = JsonConvert.SerializeObject(account, Formatting.Indented);
-     Console.WriteLine(json);
+Account account = new Account
+{
+	Email = "michael@blah.com",
+    Active = true,
+    CreatedDate = new DateTime(2017, 2, 20, 0, 0, 0, DateTimeKind.Utc),
+    Roles = new List<string>
+    {
+    "User",
+    "Admin"
+    }
+};
+
+ string json = JsonConvert.SerializeObject(account, Formatting.Indented);
+ Console.WriteLine(json);
+
+{% endhighlight %}
 
 Simple enough! The JsonConvert call and Formatting should have a red squiggly line. You can now simply add the package as shown below: 
 
