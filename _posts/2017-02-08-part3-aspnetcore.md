@@ -7,7 +7,7 @@ share: true
 comments: true
 ---
 
-Disclaimer: *I am **not** on the .NET Core Teams*. I used the tools available publicly and have no insights into the future of .NET Core.
+Disclaimer: *I am **not** on the .NET Core Team*. I used the tools available publicly and have no insights into the future of .NET Core. It looks very bright though. :)
 
 The working source code for this project can be found [here](https://github.com/mbcrump/DotNetCorePlayground). 
 
