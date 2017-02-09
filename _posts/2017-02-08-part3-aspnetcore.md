@@ -88,7 +88,7 @@ This only leaves the NetCoreConsoleApp.dll which is the Console application that
 Finally! It is about time you might say. I agree. Before you can run the app on your Mac, you're going to need to head back over to the [.NET Core downloads page](https://www.microsoft.com/net/core#macos) and install OpenSSL and then the SDK (or runtime) if you remember the difference from [the first post](http://michaelcrump.net/getting-started-with-aspnetcore/). 
 
 
-All you need to do to run this on your Mac is copy the entire folder to a folder on your Mac. Then open Terminal and you can run the app by just typing :
+To run this on your Mac, you'll need to copy the 'publish' folder to your Mac. Then open Terminal and you can run the app by just typing :
 
 	dotnet NetCoreConsoleApp.dll
 
