@@ -76,12 +76,12 @@ You should see the publish directory and go ahead and navigate into it and list 
 	               6 File(s)        519,622 bytes
 	               2 Dir(s)   74,699,058,176 bytes free
 
-Take note that you have the dlls listed here as the same as what we added to the project in the [last blog post](http://michaelcrump.net/part2-aspnetcore/). A reference to :
+Take note that the dlls listed below are related to the package reference that we added in the [last blog post](http://michaelcrump.net/part2-aspnetcore/). 
 
 * Newtonsoft.Json.dll
 * System.Runtime.Serialization.Primitives.dll
 
-The only exception is the NetCoreConsoleApp.dll which is the Console application that we can run on a Mac. 
+This only leaves the NetCoreConsoleApp.dll which is the Console application that we can run on a Mac (or any other platform that supports .NET Core).
 
 ## Running the app on a Mac
 
