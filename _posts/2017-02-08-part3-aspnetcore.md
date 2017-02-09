@@ -20,11 +20,11 @@ So far in this mini-series, I've walked you through:
 * [Day 1 - Installing and Running .NET Core on a Windows Box](http://michaelcrump.net/getting-started-with-aspnetcore/)
 * [Day 2 - Taking a Look at the Visual Studio Templates for .NET Core](http://michaelcrump.net/part2-aspnetcore/)
 
-In this post, we're going to look at running the app on the Mac. 
+In this post, we're going to look at running the app from the command line and then  the Mac. 
 
 ## Running the App in the Windows Command Prompt
 
-While you can obviously run the app inside of Visual Studio with the F5 command. You should also know that you can run the app inside of the console. Before we begin, make sure you have the app found [here](https://github.com/mbcrump/DotNetCorePlayground) open in Visual Studio. After opening the app, open the folder in the command prompt. 
+While you can obviously run the app inside of Visual Studio with the F5 command. You should also know that you can run the app inside of the console. Before we begin, make sure you have the app found [here](https://github.com/mbcrump/DotNetCorePlayground). After opening the app or downloading it, open the folder containing the project in the command prompt. 
 
 You can run your application here by simply typing : 
 
@@ -62,7 +62,7 @@ Go ahead and type `dotnet publish` on the command prompt and then type `tree` to
 	│       └───netcoreapp1.0
 	└───Properties
 
-You should see the publish directory and go ahead and navigate into it and list out the files in the directory :
+You should see the publish directory. Navigate into it and list out the files in the directory :
 
 
 	02/08/2017  06:50 PM    <DIR>          .
@@ -94,6 +94,8 @@ To run this on your Mac, you'll need to copy the 'publish' folder to your Mac. T
 
 ![image](/files/consoleappinmac.png)
 
+This is awesome! Now you have an app that run on another platform and you used your existing .NET skillset to create it. I'm **LOVING** .NET Core!
+
 ## Wrap-up
 
-Very cool! OK, I'm going to take a break and I'll be back next week. As always, thanks for reading and smash one of those share buttons to give this post some love if you found it helpful. Also, feel free to leave a comment below or follow me on [twitter](http://twitter.com/mbcrump) for daily links and tips. 
+OK, I'm going to take a break and I'll be back next week. As always, thanks for reading and smash one of those share buttons to give this post some love if you found it helpful. Also, feel free to leave a comment below or follow me on [twitter](http://twitter.com/mbcrump) for daily links and tips. 
