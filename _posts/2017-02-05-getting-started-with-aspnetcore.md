@@ -11,6 +11,13 @@ Disclaimer: *I am **not** on the .NET Core Team*. I used the tools available pub
 
 ## Intro
 
+A complete list of post in this series is included below :
+
+* [Day 1 - Installing and Running .NET Core on a Windows Box](http://michaelcrump.net/getting-started-with-aspnetcore/)
+* [Day 2 - Taking a Look at the Visual Studio Templates for .NET Core](http://michaelcrump.net/part2-aspnetcore/)
+* [Day 3 - Running a .NET Core app on a Mac](http://michaelcrump.net/part3-aspnetcore/)
+* [Day 4 - Creating a NuGet Package from .NET Core app](http://michaelcrump.net/part4-aspnetcore/)
+
 In this mini-series, I plan to walk you through [.NET Core](https://www.microsoft.com/net/core) as I learn it. In short, .NET Core runs on Windows, Mac and a couple of distros of Linux. It supports several languages (like C#) and is [open-source](https://github.com/dotnet/core). If you want to learn more about the differences between .NET Core and the .NET Framework, then I would suggest reading this [post](https://docs.microsoft.com/en-us/dotnet/articles/standard/choosing-core-framework-server). 
 
 ## Installing it

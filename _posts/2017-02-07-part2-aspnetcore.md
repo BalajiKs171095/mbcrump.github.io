@@ -13,7 +13,14 @@ The working source code for this project can be found [here](https://github.com/
 
 ## Intro
 
-So far in this mini-series, I've walked you through [Installing .NET Core on a Windows box and learning some commands and creating a Console application](http://michaelcrump.net/getting-started-with-aspnetcore/). In this post, I'm going to walk you through the Visual Studio templates for .NET Core. 
+A complete list of post in this series is included below :
+
+* [Day 1 - Installing and Running .NET Core on a Windows Box](http://michaelcrump.net/getting-started-with-aspnetcore/)
+* [Day 2 - Taking a Look at the Visual Studio Templates for .NET Core](http://michaelcrump.net/part2-aspnetcore/)
+* [Day 3 - Running a .NET Core app on a Mac](http://michaelcrump.net/part3-aspnetcore/)
+* [Day 4 - Creating a NuGet Package from .NET Core app](http://michaelcrump.net/part4-aspnetcore/)
+
+In this post, I'm going to walk you through the Visual Studio templates for .NET Core. 
 
 ## VS Templates and funky references
 
