@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Day 4 - Creating a NuGet Package from .NET Core app"
-excerpt: "Learn how to create a NuGet package from a .NET Core app in the next installment in this mini-series"
+excerpt: "Learn how to create a NuGet package from a .NET Core app"
 tags: [edge, windows, chrome, aspnet, dotnetcore, uwp]
 share: true
 comments: true
