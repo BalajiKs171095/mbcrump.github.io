@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Day 5 - Creating a Test Project from a .NET Core app"
-excerpt: "Learn how to create a test project from a .NET Core app"
+title: "Day 5 - Creating a Test Project from .NET Core"
+excerpt: "Learn how to create a test project from .NET Core"
 tags: [edge, windows, chrome, aspnet, dotnetcore, uwp]
 share: true
 comments: true
@@ -21,7 +21,7 @@ A complete list of post in this series is included below :
 * [Day 3 - Running a .NET Core app on a Mac](http://michaelcrump.net/part3-aspnetcore/)
 * [Day 4 - Creating a NuGet Package from .NET Core app](http://michaelcrump.net/part4-aspnetcore/)
 
-In this post, we're going to look at how to create a test from a .NET Core app and run it inside of Visual Studio.
+In this post, we're going to look at how to create a test from .NET Core and run it  through the command prompt and inside of Visual Studio.
 
 ## Creating a Test Project
 
