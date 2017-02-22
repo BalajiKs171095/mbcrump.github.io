@@ -37,7 +37,7 @@ I typically hit the `reload` button afterwards to make sure that it took.
 
 ## Back to the Command Prompt
 
-*Note: I'm using the latest RC*
+***Note**: I'm using the latest RC of .NET Core and YES, I'm very aware that you can create a .NET Core Console app inside of VS Code. Maybe a post for another day?*
 
 To create a new console app, I typed
 
