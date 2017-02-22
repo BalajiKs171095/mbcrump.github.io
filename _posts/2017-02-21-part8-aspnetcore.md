@@ -29,7 +29,7 @@ Before we do anything, make sure that you have installed Visual Studio Code. If 
 
 ![image](/files/vscodeinstall.png)
 
-Launch VS Code Quick Open `(Ctrl+P)`, paste `ext install csharp`, and press enter. Take the first option as highlighted below: 
+Launch VS Code Quick Open by pressing (Ctrl+P) and paste `ext install csharp`. Take the first option as highlighted below: 
 
 ![image](/files/cscodecsharpext.png)
 
@@ -67,7 +67,9 @@ If you examine the Program.cs file, then it has the following code:
 	    }
 	}
 
-Run `code program.cs` to automatically open Visual Studio Code with the Program.cs file already loaded. 
+Just keep in mind here that it displays "Hello World".
+
+**Pro tip:** You can open files directly in VS Code from the command prompt with `code filename.cs`. 
 
 ## Inside of Visual Studio Code
 
