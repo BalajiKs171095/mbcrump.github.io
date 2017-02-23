@@ -29,7 +29,7 @@ In this post, we're going to look at how you can create a .NET Core Console app 
 
 You should have Visual Studio Code installed if you've been following the series. If not, you can find it [here](https://code.visualstudio.com/) or read my last [post](http://michaelcrump.net/part8-aspnetcore/). Open VS Code and you will notice there is a **Toggle Terminal** command shown on the start screen. 
 
-![image](/files/vscodeinstall.png)
+![image](/files/vscodecommands.png)
 
 Press `CTRL+`` or go to View -> Integrated Terminal to bring up a PowerShell window. 
 
@@ -55,7 +55,7 @@ Create a new console app
 
 	dotnet new console
 
-Restore the packages 
+Restore the packages and build it
 
 	dotnet restore
 	dotnet build 
@@ -78,8 +78,6 @@ You can launch Visual Studio Code with the current directory by typing `code .` 
 ![image](/files/vscodescreen1.png)
 
 Easy enough! 
-
-
 
 
 ## Wrap-up
