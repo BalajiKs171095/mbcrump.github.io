@@ -21,6 +21,8 @@ A complete list of post in this series is included below :
 * [Day 6 - Migrating an existing .NET Core to csproj](http://michaelcrump.net/part6-aspnetcore/)
 * [Day 7 - Creating an ASP.NET Core Web Application](http://michaelcrump.net/part7-aspnetcore/)
 * [Day 8 - Using Visual Studio Code with a .NET Core Console Application](http://michaelcrump.net/part8-aspnetcore/)
+* [Day 9 - Creating a .NET Core Console App inside of Visual Studio Code](http://michaelcrump.net/part9-aspnetcore/)
+* [Day 10 - Using JetBrains Rider with a .NET Core Console Application](http://michaelcrump.net/part10-aspnetcore/)
 
 In this mini-series, I plan to walk you through [.NET Core](https://www.microsoft.com/net/core) as I learn it. In short, .NET Core runs on Windows, Mac and a couple of distros of Linux. It supports several languages (like C#) and is [open-source](https://github.com/dotnet/core). If you want to learn more about the differences between .NET Core and the .NET Framework, then I would suggest reading this [post](https://docs.microsoft.com/en-us/dotnet/articles/standard/choosing-core-framework-server). 
 
