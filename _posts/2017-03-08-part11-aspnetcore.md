@@ -55,7 +55,7 @@ You can also open the .csproj proj directly within Visual Studio 2017. As you ca
 	
 	</Project>
 
-**Tip: **If you also have a project created with an older version of .NET Core, then go ahead and open it inside of Visual Studio 2017 and it will prompt you to upgrade.
+**Tip:** If you also have a project created with an older version of .NET Core, then go ahead and open it inside of Visual Studio 2017 and it will prompt you to upgrade.
 
 
 ## Updates to the CLI Tools
