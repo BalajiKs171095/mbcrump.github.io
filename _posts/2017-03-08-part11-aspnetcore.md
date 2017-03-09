@@ -28,11 +28,9 @@ In this post, we're going to look at Visual Studio 2017 and the updated CLI tool
 
 ## Visual Studio 2017 Loves .NET Core
 
-If you haven't downloaded Visual Studio 2017 yet, then you should grab it! After downloading it, make sure the .NET Core cross-platform development box is checked. You will find it under "Other Toolsets" as shown below : 
+If you haven't downloaded Visual Studio 2017 yet, then you should grab it! After downloading it, make sure the .NET Core cross-platform development box is checked. You will find it under "Other Toolsets" as shown below. You'll also want to make sure the Container development tools is checked.
 
 ![image](/files/netcorevs17.png)
-
-You'll also want to make sure the Container development tools is checked.
 
 Once it is installed, you can open Visual Studio 2017 and goto File->New Project and select .NET Core as shown below to enjoy the new templates. 
 
@@ -57,7 +55,7 @@ You can also open the .csproj proj directly within Visual Studio 2017. As you ca
 	
 	</Project>
 
-If you also have a project created with an older version of .NET Core, then go ahead and open it inside of Visual Studio 2017 and it will prompt you to upgrade.
+**Tip: **If you also have a project created with an older version of .NET Core, then go ahead and open it inside of Visual Studio 2017 and it will prompt you to upgrade.
 
 
 ## Updates to the CLI Tools
@@ -81,10 +79,7 @@ That is right! We are now at 1.0.
 
 ## .NET Core Target Framework from the Command Line
 
-We can now run `dotnet new console -f netcoreapp1.0` command to specify the .NET Core 1.0 Framework. We can also use `dotnet new console -f netcoreapp1.1` for a 1.1 app. 
-
-If we take the 1.0 option and open it in Visual Studio 2017 then we will see the target framework is now 1.0.  
-
+We can now run `dotnet new console -f netcoreapp1.0` command to specify a .NET Core Console app that uses the 1.0 Framework. We can also use `dotnet new console -f netcoreapp1.1` for a .NET Core 1.1 app. 
 
 ## Create a Solution File from the Command Line
 
