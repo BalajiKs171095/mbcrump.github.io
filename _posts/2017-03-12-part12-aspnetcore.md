@@ -55,7 +55,9 @@ The default behavior of .NET Core is to opt you in, but it displays a whole sect
 	Decompressing 100% 5445 ms
 	Expanding 100% 51482 ms
 
-The point that I'm trying to make here is that **a)** data is needed in order to make a product great **b)** be up front that you are collecting telemetry data **c)** if you make a tool that collects telemetry, try to make it very easy for someone to opt-out
+.NET Core also [outlines](https://docs.microsoft.com/en-us/dotnet/articles/core/tools/telemetry) exactly the data they are collecting which is needed in order to approve the technology being used in many businesses. 
+
+The point that I'm trying to make here is that **a)** data is needed in order to make a product great **b)** be up front that you are collecting telemetry data **c)** if you make a tool that collects telemetry, try to make it very easy for someone to opt-out **d)** provide clear guidance about what data you are collecting. I'm sure there are more things to add to this list, but this is the first that comes to my mind with this topic. 
 
 ## Turning it off on Windows
 
