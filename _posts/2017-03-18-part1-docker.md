@@ -77,7 +77,7 @@ and it will list available containers :
 	CONTAINER ID        IMAGE                     COMMAND             CREATED             STATUS              PORTS               NAMES
 	8fdada2313be        mongo:windowsservercore   "mongod"            About an hour ago   Up About an hour    27017/tcp           sharp_mirzakhani
 
-Take note of the name and pass it into the command below :  
+Take note of the name (listed at the end of the previous command) and pass it into the command below :  
 
 	docker exec -it sharp_mirzakhani mongo
 
