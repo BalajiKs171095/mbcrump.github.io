@@ -9,7 +9,7 @@ comments: true
 
 ## Intro
 
-In this mini-series, I plan to walk you through [Docker](https://www.docker.com) as I learn it. In short, Docker is an open-source project that automates the deployment of applications inside software containers. For developers, I think it can be summarized with one line: Docker automates the repetitive tasks of setting up and configuring development environments so that developers can focus on what matters: building great software. I would recommend reading this [post](https://www.docker.com/what-docker) to learn exactly what Docker is in their own words. 
+In this mini-series, I plan to walk you through [Docker](https://www.docker.com) as I learn it. In short, Docker is an open-source project that automates the deployment of applications inside software containers. For developers, I think it can be summarized with one sentence. Docker automates the repetitive tasks of setting up and configuring development environments so that developers can focus on what matters: building great software. I would recommend reading this [post](https://www.docker.com/what-docker) to learn exactly what Docker is in their own words. 
 
 
 A complete list of post in this series is included below :
@@ -23,14 +23,13 @@ There is a couple of things that might help with installing it. On the [download
 
 
 - Stable channel - The Stable version comes with the latest GA release of Docker Engine	
-
 - Edge channel - The Edge version offers access to cutting edge features
 
 You will want to take the "Stable channel" for this guide as we want to learn on stable builds. Let the installer run as shown below: 
 
 ![image](/files/installerdocker.png)
 
-As it is installing, you may need to turn on Hyper-V and reboot. 
+As it is installing, it will automatically prompt you to turn on Hyper-V (if not already on) and reboot. 
 
 ## Verifying Installation
 
@@ -52,7 +51,7 @@ Since I want to work with monogb. I simply searched for `mongodb docker` and fou
 
 	docker run mongo:windowsservercore
 
-You will see the following output after it completes that shows it downloaded it successfully and started the database : 
+You will see the following output after it completes that shows it downloaded it successfully and started the database (I trimmed the output below) : 
 
 	Unable to find image 'mongo:windowsservercore' locally
 	windowsservercore: Pulling from library/mongo
@@ -69,15 +68,14 @@ You will see the following output after it completes that shows it downloaded it
 	Digest: sha256:90d80c5fdc534118c476edf158ce1d814325b2e6300a8573d7e1c2c2a8ad8b4a
 	Status: Downloaded newer image for mongo:windowsservercore
 
-Open another command prompt and type the following : 
+Open another command prompt (think of this one as the client) and type the following : 
 
 	docker ps
 
 and it will list available containers :
 
-C:\Users\mbcru>docker ps
-CONTAINER ID        IMAGE                     COMMAND             CREATED             STATUS              PORTS               NAMES
-8fdada2313be        mongo:windowsservercore   "mongod"            About an hour ago   Up About an hour    27017/tcp           sharp_mirzakhani
+	CONTAINER ID        IMAGE                     COMMAND             CREATED             STATUS              PORTS               NAMES
+	8fdada2313be        mongo:windowsservercore   "mongod"            About an hour ago   Up About an hour    27017/tcp           sharp_mirzakhani
 
 Take note of the name and pass it into the command below :  
 
@@ -101,7 +99,9 @@ This will start our Docker instance as shown below :
 	2017-03-18T10:52:22.711-0700 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
 	2017-03-18T10:52:22.711-0700 I CONTROL  [initandlisten]
 
-You can even type `show dbs` to see the local database. Keep in mind that the database isn't secure as you see all the warning messages. 
+Cool! We have an instance of mongodb running! You can even type `show dbs` to see the local database. 
+
+**Note:** Keep in mind that the database isn't secure as you see all the warning messages. In other words, don't use this in production. 
 
 
 ## Wrap-up
