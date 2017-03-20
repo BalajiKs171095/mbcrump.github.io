@@ -41,13 +41,13 @@ You should see the following :
 
 ![image](/files/dockercl.png)
 
-Now is also a good time to switch to "Windows Containers" as we are about to install monogb. Go ahead and look for Docker in your task bar and right click it and select "Switch to Windows Containers" as shown below. 
+Now is also a good time to switch to "Windows Containers" as we are about to install mongogb. Go ahead and look for Docker in your task bar and right click it and select "Switch to Windows Containers" as shown below. 
 
 ![image](/files/dockerwincontain.png)
 
-## Start working with monogb 
+## Start working with mongodb 
 
-Since I want to work with monogb. I simply searched for `mongodb docker` and found the following [page](https://hub.docker.com/_/mongo/). After reading the page, I started with the following command : 
+Since I want to work with mongodb. I simply searched for `mongodb docker` and found the following [page](https://hub.docker.com/_/mongo/). After reading the page, I started with the following command : 
 
 	docker run mongo:windowsservercore
 
