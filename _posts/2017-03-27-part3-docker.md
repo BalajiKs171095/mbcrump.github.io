@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Day 2 - Exploring Docker for Windows - Removing Containers and Images"
+title: "Day 3 - Exploring Docker for Windows - Removing Containers and Images"
 excerpt: "Learn how to remove containers and images in Docker"
 tags: [docker, windows, edge, dotnet, dotnetcore, web]
 share: true
