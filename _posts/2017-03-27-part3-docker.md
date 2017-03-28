@@ -16,6 +16,7 @@ A complete list of post in this series is included below :
 * [Day 1 - Exploring Docker for Windows - Getting Started](http://michaelcrump.net/part1-docker/)
 * [Day 2 - Exploring Docker for Windows - Stopping and Restarting Containers](http://michaelcrump.net/part2-docker/)
 * [Day 3 - Exploring Docker for Windows - Removing Containers and Images](http://michaelcrump.net/part3-docker/)
+* [Day 4 - Exploring Docker for Windows - Running Docker Documentation Locally](http://michaelcrump.net/part4-docker/)
 
 ## Removing containers
 
