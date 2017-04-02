@@ -57,18 +57,18 @@ If you run `docker ps -a` then you will see a list of processes (stop or started
 	0bd91d15c075        microsoft/dotnet:nanoserver   "c:\\windows\\system..."   About a minute ago   Exited (0) About a min
 	ute ago                                clever_shirley
 
-We can see that it started our instance of .NET Core but it has excited out. If we run `docker ps -a --no-trunc` then we can see what command was actually executed : 
+We can see that it started our instance of .NET Core but it exited out. We can't see the command that it ran as it truncated it from the output. To fix that, we need to run `docker ps -a --no-trunc` to see what command was actually executed : 
 
 	CONTAINER ID                                                       IMAGE                         COMMAND                            CREATED             STATUS
 	                       PORTS               NAMES
 	0bd91d15c075ce09896cce6c129919570c4983543085674eaa0114d5eadf7142   microsoft/dotnet:nanoserver   "c:\\windows\\system32\\cmd.exe"   4 minutes ago       Exited (0) 4
 	minutes ago                                clever_shirley
 
-OK, so let's go ahead and run the docker run command and add -it for Interactive Terminal :
+We can now see that it started `c:\\windows\\system32\\cmd.exe`. Great! So this is a command prompt that we are looking for. OK, so let's go ahead and run the docker run command and add -it for Interactive Terminal :
 
 	docker run -it microsoft/dotnet:nanoserver
 
-Now we are running a Command Prompt inside of a Container using Docker. We can even run `dotnet --info` to verify. 
+Now we are running a command prompt inside of a Container using Docker. We can even run `dotnet --info` to verify. 
 
 ![image](/files/dockerdotnet.png)
 
