@@ -18,6 +18,7 @@ A complete list of post in this series is included below :
 * [Day 3 - Exploring Docker for Windows - Removing Containers and Images](http://michaelcrump.net/part3-docker/)
 * [Day 4 - Exploring Docker for Windows - Running Docker Documentation Locally](http://michaelcrump.net/part4-docker/)
 * [Day 5 - Exploring Docker for Windows - Running A Command Prompt Inside a Container](http://michaelcrump.net/part5-docker/)
+* [Day 6 - Exploring Docker for Windows - Accessing Files inside a Container](http://michaelcrump.net/part5-docker/)
 
 ## Running an interactive application inside a container
 
