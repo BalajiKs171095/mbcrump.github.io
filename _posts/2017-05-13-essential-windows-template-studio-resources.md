@@ -21,7 +21,7 @@ You'll start with this...
 
 Windows Template Studio is completely open-source and available now on [GitHub](https://github.com/Microsoft/WindowsTemplateStudio). We would love for you to contribute to the project and would encourage you to read our [contribution guidelines](https://github.com/Microsoft/WindowsTemplateStudio/blob/master/CONTRIBUTING.md) for next steps. 
 
-	You can get to the open source repo quickly by going to [aka.ms/wsl](http://aka.ms/wsl).
+**>** You can get to the open source repo quickly by going to [aka.ms/wsl](http://aka.ms/wsl).
 
 ## Install the VSIX, Create your App
 
@@ -29,7 +29,7 @@ If you have Visual Studio 2017 installed then it only requires for you to downlo
 
 ![](/files/VSTemplate.png)
 
-	You can get to the open source repo quickly by going to [aka.ms/wslinstall](http://aka.ms/wslinstall).
+**>** You can get to the Visual Studio extension quickly by going to [aka.ms/wslinstall](http://aka.ms/wslinstall).
 
 ## Watch the videos
 
@@ -48,11 +48,11 @@ In this video I'll give you a little tour of the new Windows Template Studio - a
 
 ## Listen to the Podcast
 
-[CodingBlocks.net](http://CodingBlocks.net) - [Episode 59 – How to Jumpstart Your Next UWP App](http://www.codingblocks.net/podcast/how-to-jumpstart-your-next-app/)
+### [CodingBlocks.net](http://CodingBlocks.net) - [Episode 59 – How to Jumpstart Your Next UWP App](http://www.codingblocks.net/podcast/how-to-jumpstart-your-next-app/)
 
 Show notes : We’re back with another exciting episode as Michael questions Hollywood, Allen dreams of his Hackintosh, and Joe is surrounded by Star Wars as we talk about how to jumpstart your next UWP app.
 
-[Eat, Sleep Code Podcast](https://soundcloud.com/esc-podcast/) by [Telerik](http://www.progress.com) - Windows Template Studio
+### [Eat, Sleep Code Podcast](https://soundcloud.com/esc-podcast/) by [Telerik](http://www.progress.com) - Windows Template Studio
 
 Ed Charbeneau had the amazing opportunity to sit down and talk with Michael Crump and Clint Rutkas from Microsoft on Eat Sleep Code, the official Telerik podcast. Michael and Clint have been hard at work on Windows Template Studio, a new getting started experience for Universal Windows Platform. Check out the interview in its entirety with the SoundCloud embedded player and [read the announcement](http://developer.telerik.com/topics/net/announcing-windows-template-studio/) that follows. 
 
