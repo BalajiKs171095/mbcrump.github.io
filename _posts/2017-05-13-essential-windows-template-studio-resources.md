@@ -50,7 +50,7 @@ In this video I'll give you a little tour of the new Windows Template Studio - a
 
 [CodingBlocks.net](http://CodingBlocks.net) - [Episode 59 – How to Jumpstart Your Next UWP App](http://www.codingblocks.net/podcast/how-to-jumpstart-your-next-app/)
 
-Show notes : We’re back with another exciting episode as Michael questions Hollywood, Allen dreams of his Hackintosh, and Joe is surrounded by Star Wars as we talk about how to jumpstart your next UWP app with [Michael Crump (@mbcrump)](http://twitter.com/mbcrump) and [Clint Rutkas (@clintrutkas)](http://twitter.com/clintrutkas).
+Show notes : We’re back with another exciting episode as Michael questions Hollywood, Allen dreams of his Hackintosh, and Joe is surrounded by Star Wars as we talk about how to jumpstart your next UWP app.
 
 [Eat, Sleep Code Podcast](https://soundcloud.com/esc-podcast/) by [Telerik](http://www.progress.com) - Windows Template Studio
 
