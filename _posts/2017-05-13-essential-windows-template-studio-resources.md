@@ -33,9 +33,9 @@ If you have Visual Studio 2017 installed then it only requires for you to downlo
 
 ## Watch the videos
 
-Clint Rutkas showed Windows Template Studio during the "Ten things you didn’t know about Visual Studio 2017 for building .NET UWP apps" session at Build. The video below begins the section on Windows Template Studio. 
+Clint Rutkas showed Windows Template Studio during the "Ten things you didn’t know about Visual Studio 2017 for building .NET UWP apps" session at Build. You can directly skip to the section by clicking [here](https://channel9.msdn.com/Events/Build/2017/B8096/player#time=3m39s) or manually moving to the 3 minute and 39 second mark. 
 
-<iframe src="https://channel9.msdn.com/Events/Build/2017/B8096/player#time=3m39s" width="1170" height="658.125" allowFullScreen frameBorder="0"></iframe>
+<iframe src="https://channel9.msdn.com/Events/Build/2017/B8096/player" width="960" height="540" allowFullScreen frameBorder="0"></iframe>
 
 Clint Rutkas, [Matt Lacey](http://twitter.com/mrlacy) and I appeared on Channel 9 Live at Build and we recorded the following video on why we created Windows Template Studio and included a demonstration of us using it. We also answered questions live on the show. 
 
