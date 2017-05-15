@@ -21,7 +21,7 @@ You'll start with this...
 
 Windows Template Studio is completely open-source and available now on [GitHub](https://github.com/Microsoft/WindowsTemplateStudio). We would love for you to contribute to the project and would encourage you to read our [contribution guidelines](https://github.com/Microsoft/WindowsTemplateStudio/blob/master/CONTRIBUTING.md) for next steps. 
 
-**>** You can get to the open source repo quickly by going to [aka.ms/wsl](http://aka.ms/wsl).
+**>** You can get to the open source repo quickly by going to [aka.ms/wts](http://aka.ms/wts).
 
 ## Install the VSIX, Create your App
 
@@ -29,7 +29,7 @@ If you have Visual Studio 2017 installed then it only requires for you to downlo
 
 ![](/files/VSTemplate.png)
 
-**>** You can get to the Visual Studio extension quickly by going to [aka.ms/wslinstall](http://aka.ms/wslinstall).
+**>** You can get to the Visual Studio extension quickly by going to [aka.ms/wtsinstall](http://aka.ms/wtsinstall).
 
 ## Watch the videos
 
