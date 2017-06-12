@@ -16,23 +16,23 @@ A couple of weeks ago, I used an online tool to create an ICS file for an upcomi
 
 Fair enough! It sounded like a great idea, so this is my journey following his tweet. 
 
-## Setting up the Azure Function
+## Setting it all up! 
 
-Since I used an online tool to create the ICS file, I knew that I was going to have to write one completely from scratch and that it would be used all over the world. It would also need to work with a variety of email clients, including online ones. I also wanted folks to just go to a website and it would generate and send down the ICS file. This would also allow  me to easily modify it for future webinars. 
+Since I used an online tool to create the ICS file, I knew that I was going to have to generate an ICS file from my site and that it would be used all over the world. It would also need to work with a variety of email clients, including online ones. I also wanted folks to just go to a website and it would generate and send down the ICS file. This would also allow  me to easily modify it for future webinars. 
 
 With that in mind, I began by taking a look at a third party library called [iCal.NET](https://github.com/rianjs/ical.net). It looks like this handles all the various time zones and client. Next, I opened the Azure Portal and creating a new Azure Function application securing the name that folks would go to : 
  
 ![image](/files/azure-new-app1.png)
 
-Next, I chose a language and happily picked C# (something that Amazon AWS doesn't offer) and used a HttpTrigger template. 
+Next, I chose a language and happily picked C# (*something that Amazon AWS Lambdas doesn't offer*) and used a HttpTrigger template. How cool is it to have templates like this?!?
 
 ![image](/files/azure-quickstart-templates.png)
 
-By default, the code in the template is looking for a name parameter and a POST command. Since, I didn't want to respond to a POST, but rather just a GET, I deleted the code inside the function. 
+By default, the code in the template is looking for a name parameter and a POST command. Since, I didn't want to respond to a POST, but rather just a GET, I used this as my start but deleted the name parameter section. 
 
-Armed with just the online editor, I started writing code. I could have downloaded [Visual Studio 2017 Preview 3](https://www.visualstudio.com/vs/preview/) and the [Azure Function tooling](https://blogs.msdn.microsoft.com/webdev/2017/05/10/azure-function-tools-for-visual-studio-2017/) for a richer debugging experience, but it was getting late and I wanted to crank this out with the tools that I already had installed. 
+Armed with just the online editor, I started writing code. I could have downloaded [Visual Studio 2017 Preview 3](https://www.visualstudio.com/vs/preview/) and the [Azure Function tooling](https://blogs.msdn.microsoft.com/webdev/2017/05/10/azure-function-tools-for-visual-studio-2017/) for a richer debugging experience, but it was getting late and I wanted to crank this out with just a browser and my C# skills. 
 
-I needed to pull in a third party library, so I noticed that you could view "Files", and just created a `project.json` and added the following NuGet package reference : 
+I needed to pull in a third party library, so I noticed that you could view "Files" inside the portal and that it supports NuGet. I simply created a `project.json` and added the following NuGet package reference to iCal.NET and Newtonsoft.Json : 
 
 	{
 	  "frameworks": {
@@ -45,7 +45,7 @@ I needed to pull in a third party library, so I noticed that you could view "Fil
 	   }
 	}
 
-I noticed my project started pulling and restarting my function. 
+When I switched back to my function, I noticed my project started pulling down the references and restarted my function. 
 
 ## Writing the code
 
@@ -106,7 +106,9 @@ I finally landed on the following code after reading the iCal.NET docs and learn
 	    return result;
 	}
 
-I hit the "Save" button and it would let me know if it compiled successfully or not. It finally compiled successfully as shown below : 
+The code is pretty self-explanatory if you've used iCal.NET before, but basically I create the file and ensure when someone visits the site that it sends down an ICS file named `webinarinvite.ics`. 
+
+During the process of working with the function, I hit the "Save" button and it would let me know if it compiled successfully or not. It finally compiled successfully as shown below : 
 
 	2017-06-06T23:19:02  Welcome, you are now connected to log-streaming service.
 	2017-06-06T23:20:02  No new trace in the past 1 min(s).
@@ -131,6 +133,8 @@ I've recently checked the traffic using the "Monitor" section and noticed it has
 
 Whenever I need to update this in the future, all it will require is changing two lines. No deployment, etc. is needed as it will auto compile. 
 
+Btw, you can try it now at [http://aka.ms/AzureFunctionsLive](http://aka.ms/AzureFunctionsLive) and be sure to follow [@AzureFunctions](https://twitter.com/AzureFunctions) on Twitter! 
+
 ## Wrap-up
 
-This really shows the power of Azure Functions and I'm very excited about Serverless! As always, thanks for reading and smash one of those share buttons to give this post some love if you found it helpful. Also, feel free to leave a comment below or follow me on [twitter](http://twitter.com/mbcrump) for daily links and tips. 
+This really shows the power of [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) and I'm very excited about Serverless! As always, thanks for reading and smash one of those share buttons to give this post some love if you found it helpful. Also, feel free to leave a comment below or follow me on [twitter](http://twitter.com/mbcrump) for daily links and tips. 
