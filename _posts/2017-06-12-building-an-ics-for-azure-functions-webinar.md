@@ -131,7 +131,12 @@ I've recently checked the traffic using the "Monitor" section and noticed it has
 
 ![image](/files/azurestatsfunction.png)
 
-Whenever I need to update this in the future, all it will require is changing two lines. No deployment, etc. is needed as it will auto compile. 
+Whenever I need to update this in the future, all it will require is changing two lines. No additional servers, redeployment, etc. is needed as it will auto compile. 
+
+Not only did it solve our business needs, but I think have the webinar available for later viewing even saved a marriage! 
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I am committed to making sure no marriage is at risk by attending our webinar. 😀</p>&mdash; Michael Crump 🤓 (@mbcrump) <a href="https://twitter.com/mbcrump/status/872834934938808320">June 8, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Btw, you can try it now at [http://aka.ms/AzureFunctionsLive](http://aka.ms/AzureFunctionsLive) and be sure to follow [@AzureFunctions](https://twitter.com/AzureFunctions) on Twitter! 
 
