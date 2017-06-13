@@ -24,7 +24,7 @@ With that in mind, I began by taking a look at a third party library called [iCa
  
 ![image](/files/azure-new-app1.png)
 
-Next, I chose a language and happily picked C# (*something that Amazon AWS Lambdas doesn't offer*) and used a HttpTrigger template. How cool is it to have templates like this?!?
+Next, I chose a language and happily picked C# (*Amazon AWS Lambdas only supports C# via .NET Core*) and used a HttpTrigger template. How cool is it to have templates like this?!?
 
 ![image](/files/azure-quickstart-templates.png)
 
