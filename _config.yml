@@ -43,7 +43,7 @@ titlecase: true
 owner:
   name: Michael Crump
   avatar: http://michaelcrump.net/files/michael-profile-pic.jpg
-  bio: Works @Microsoft on Windows 
+  bio: Works at Microsoft on Azure 
   email: #username
   disqus-shortname: mbcrump
   twitter: mbcrump
@@ -59,7 +59,7 @@ owner:
   stackoverflow: #http://stackoverflow.com/users/123456/username
   linkedin: mbcrump
   xing: #username
-  instagram: #username
+  instagram: mbcrump
   lastfm: #username
   tumblr: #username
   pinterest: #username
@@ -68,9 +68,9 @@ owner:
   dribbble: #username
   youtube: mbcrump
   soundcloud: #username
-  vine: mbcrump
+  vine: #username
   weibo: #username
-  flickr: mbcrump
+  flickr: #username
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
