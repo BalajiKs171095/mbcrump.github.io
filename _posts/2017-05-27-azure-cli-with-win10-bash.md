@@ -15,7 +15,7 @@ One thing that most folks aren't aware of is that they can enabled the Azure CLI
 
 Open the BASH prompt in Windows 10 and run the following command: 
 
-	echo "deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ wheezy main" | \ sudo tee /etc/apt/sources.list.d/azure-cli.list
+	echo "deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ wheezy main" | sudo tee /etc/apt/sources.list.d/azure-cli.list
 
 It'll ask for your sudo password and then modify your sources list. You'll see the following output from BASH: 
 
