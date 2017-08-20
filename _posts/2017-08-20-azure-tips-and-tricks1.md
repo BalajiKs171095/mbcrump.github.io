@@ -15,6 +15,7 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 Developers love keyboard shortcuts and there are plenty keyboard shortcuts in the Azure platform. You can see a list by going to Help and then Keyboard Shortcuts in the portal as shown below. 
 
+
 ![image](/files/azuretip1.gif)
 
 You will see that you have the following keyboard shortcuts available: 
