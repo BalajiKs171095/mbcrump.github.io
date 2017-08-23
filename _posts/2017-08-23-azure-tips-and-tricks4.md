@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Tips and Tricks Part 3 - Customize and Pin Charts to your Azure Dashboard"
+title: "Azure Tips and Tricks Part 4 - Customize and Pin Charts to your Azure Dashboard"
 excerpt: "Learn how to quickly customize and pin charts to your Azure Dashboard"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true
