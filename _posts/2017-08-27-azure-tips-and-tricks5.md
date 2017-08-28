@@ -17,7 +17,7 @@ We learned in the last Azure tip and Trick that the Azure dashboard supports dra
 
 <img style="border:3px solid #021a40" src="http://michaelcrump.net/files/azuretip4.gif">
 
-But some tiles support custom tile sizes which you can located by looking in the bottom right hand corner. If you see a corner arrow then you can resize the tile! 
+But some tiles support custom tile sizes which you can locate by looking in the bottom right hand corner. If you see a corner arrow then you can resize the tile! 
 
 <img style="border:3px solid #021a40" src="http://michaelcrump.net/files/azuretip5.gif">
 
