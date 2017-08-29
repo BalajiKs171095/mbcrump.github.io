@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Azure Tips and Tricks Part 7 - Use the Table Parameter in the Azure CLI"
-excerpt: "Learn how to add and reorder favorites in the Azure dashboard"
+excerpt: "Learn how to use the table parameter in the Azure CLI"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true
 comments: true
