@@ -54,7 +54,7 @@ And finally an option to opt into data collection:
 
 Here is a sample of setting the configuration and running a command:
 
-<img style="border:3px solid #021a40" src="http://michaelcrump.net/files/azuretip8.gif">
+<img src="http://michaelcrump.net/files/azuretip8.gif">
 
 
 ## Want more Azure Tips and Tricks?
