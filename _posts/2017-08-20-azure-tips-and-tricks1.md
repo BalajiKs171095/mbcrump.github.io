@@ -11,6 +11,10 @@ comments: true
 
 Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platform really is. As I've been presenting topics on Azure, I've had many people say, "How did you do that?" So I'll be documenting my tips and tricks for Azure in these posts. 
 
+## The Complete List
+
+[Click here to view the complete list of Azure Tips and Tricks ](http://michaelcrump.net/azure-tips-and-tricks-complete-list/)
+
 ## Azure Portal Keyboard Shortcuts
 
 Developers love keyboard shortcuts and there are plenty keyboard shortcuts in the Azure platform. You can see a list by going to Help and then Keyboard Shortcuts in the portal as shown below. 

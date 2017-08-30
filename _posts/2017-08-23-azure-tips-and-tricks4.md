@@ -11,6 +11,10 @@ comments: true
 
 Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platform really is. As I've been presenting topics on Azure, I've had many people say, "How did you do that?" So I'll be documenting my tips and tricks for Azure in these posts.
 
+## The Complete List
+
+[Click here to view the complete list of Azure Tips and Tricks ](http://michaelcrump.net/azure-tips-and-tricks-complete-list/)
+
 ## Customize and Pin Charts to your Azure Dashboard
 
 You are probably aware that you can drag and drop and re-size tiles in the Azure dashboard. 

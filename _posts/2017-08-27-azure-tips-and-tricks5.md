@@ -11,6 +11,10 @@ comments: true
 
 Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platform really is. As I've been presenting topics on Azure, I've had many people say, "How did you do that?" So I'll be documenting my tips and tricks for Azure in these posts.
 
+## The Complete List
+
+[Click here to view the complete list of Azure Tips and Tricks ](http://michaelcrump.net/azure-tips-and-tricks-complete-list/)
+
 ## Custom Tile Sizes in the Azure Dashboard
 
 We learned in the last Azure tip and Trick that the Azure dashboard supports drag and drop and re-size tiles in the Azure dashboard. We also learned that you can customize charts (such as the ones seen in Virtual Machines) to include stats such as CPU when you pin it to the dashboard.  
