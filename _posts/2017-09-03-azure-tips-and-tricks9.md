@@ -17,9 +17,11 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 ## Quickly Connect to Windows VMs with RDP
 
-You can quickly connect to a Windows VM by navigating to the blade in the Azure Portal and clicking the "Connect" button. It will prompt you to download an RDP file which you can click to open it in the Remote Desktop Connection application. Windows will give you a security prompt and firewall rule that you'll need to allow. The only thing left is adding your username and password that you set when you created the VM. 
+You can quickly connect to an existing Windows Virtual Machine by navigating to the "Virtual Machine" blade in the Azure Portal. Once you are on the page, click the "Connect" button at the top of the page. It will prompt you to download an Remote Desktop Protocol (.rdp) file. After you click on it, then it will open the Remote Desktop Connection application. Windows will give you a security prompt and firewall rule which you'll need to allow. Provide your username and password and you are logged into your new Virtual Machine. 
 
 <img src="http://michaelcrump.net/files/azuretip9.gif">
+
+That was easy!
 
 
 ## Want more Azure Tips and Tricks?
