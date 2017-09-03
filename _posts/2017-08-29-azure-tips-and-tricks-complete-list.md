@@ -23,6 +23,7 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 6 - Add and Reorder Favorites in the Azure Dashboard](http://michaelcrump.net/azure-tips-and-tricks6/)
 * [Azure Tips and Tricks Part 7 - Use the Table Parameter in the Azure CLI](http://michaelcrump.net/azure-tips-and-tricks7/)
 * [Azure Tips and Tricks Part 8 - Azure Tips and Tricks Part 8 - Configure the Azure CLI to set Output Defaults and more](http://michaelcrump.net/azure-tips-and-tricks8/)
+* [Azure Tips and Tricks Part 9 - Quickly Connect to Windows VMs with RDP](http://michaelcrump.net/azure-tips-and-tricks9/)
 
 ## Got a Azure Tip or Trick?
 
