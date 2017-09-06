@@ -22,9 +22,10 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 05 - Custom Tile Sizes in the Azure Dashboard](http://michaelcrump.net/azure-tips-and-tricks5/)
 * [Azure Tips and Tricks Part 06 - Add and Reorder Favorites in the Azure Dashboard](http://michaelcrump.net/azure-tips-and-tricks6/)
 * [Azure Tips and Tricks Part 07 - Use the Table Parameter in the Azure CLI](http://michaelcrump.net/azure-tips-and-tricks7/)
-* [Azure Tips and Tricks Part 08 - Azure Tips and Tricks Part 8 - Configure the Azure CLI to set Output Defaults and more](http://michaelcrump.net/azure-tips-and-tricks8/)
+* [Azure Tips and Tricks Part 08 - Configure the Azure CLI to set Output Defaults and more](http://michaelcrump.net/azure-tips-and-tricks8/)
 * [Azure Tips and Tricks Part 09 - Quickly Connect to Windows VMs with RDP](http://michaelcrump.net/azure-tips-and-tricks9/)
 * [Azure Tips and Tricks Part 10 - Quickly Connect to a Linux VM with SSH](http://michaelcrump.net/azure-tips-and-tricks10/)
+* [Azure Tips and Tricks Part 11 - Access Cloud Shell from within Microsoft Docs](http://michaelcrump.net/azure-tips-and-tricks11/)
 
 ## Got a Azure Tip or Trick?
 
