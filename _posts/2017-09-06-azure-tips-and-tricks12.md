@@ -15,7 +15,7 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 [Click here to view the complete list of Azure Tips and Tricks ](http://michaelcrump.net/azure-tips-and-tricks-complete-list/)
 
-## Access Cloud Shell from within Microsoft Documentation
+## Easily Start, Restart, Stop or Delete Multiple VMs
 
 You may be aware that you can restart, start, stop or delete a VM but did you know that you can select multiple at the same time? Just open the Azure Portal and select the VMs you wish to control and press the desired button. It really is that easy!  
 
