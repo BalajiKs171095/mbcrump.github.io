@@ -26,6 +26,7 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 09 - Quickly Connect to Windows VMs with RDP](http://michaelcrump.net/azure-tips-and-tricks9/)
 * [Azure Tips and Tricks Part 10 - Quickly Connect to a Linux VM with SSH](http://michaelcrump.net/azure-tips-and-tricks10/)
 * [Azure Tips and Tricks Part 11 - Access Cloud Shell from within Microsoft Docs](http://michaelcrump.net/azure-tips-and-tricks11/)
+* [Azure Tips and Tricks Part 12 - Easily Start, Restart, Stop or Delete Multiple VMs](http://michaelcrump.net/azure-tips-and-tricks12/)
 
 ## Got a Azure Tip or Trick?
 
