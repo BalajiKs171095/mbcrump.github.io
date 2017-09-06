@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Tips and Tricks Part 11 - Easily Start, Restart, Stop or Delete Multiple VMs"
+title: "Azure Tips and Tricks Part 12 - Easily Start, Restart, Stop or Delete Multiple VMs"
 excerpt: "Learn how to quickly start, restart, stop or delete Multiple VMs with just one click"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true
