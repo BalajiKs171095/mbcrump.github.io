@@ -54,7 +54,7 @@ Remember the `.cloudconsole` and `.pscloudshell` directories from above?
 	michael@Azure:~/clouddrive/.cloudconsole$ ls
 	acc_michael.img
 
-Nice! We just found a `acc_michael.img` file. This is a 5 gig image that persist your home directory. You could have also navigated through the portal to see what was inside this file by the CLI was cooler!
+Nice! We just found a `acc_michael.img` file. This is a 5 gig image that persist your home directory. You could have also navigated through the portal to see what was inside this directory but now you under the CLI better! For those that want an extra challenge, go to the Azure Portal and download the Image file and explore it. Feel free to post comments on what you found below. 
 
 So what about the other file called `.pscloudshell`? 
 
