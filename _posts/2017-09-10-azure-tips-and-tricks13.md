@@ -27,7 +27,7 @@ You can find it once you go to your Resource Group and look for `cloud-shell*` a
 
 If you drill down into the Storage account, you'll land on two directories - `.cloudconsole` and `.pscloudshell`. More on that later. 
 
-<img style="border:3px solid #021a40" src="http://michaelcrump.net/files/cloudshellcapture.gif">
+<img style="border:3px solid #021a40" src="http://michaelcrump.net/files/cloudshell2.pngf">
 
 Open the Azure Cloud Shell inside of the portal by clicking on the icon at the top (looks like `>_`)
 
