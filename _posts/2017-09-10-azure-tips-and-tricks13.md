@@ -23,15 +23,15 @@ When you first open the Cloud Shell, you will find that it requires you to creat
 
 You can find it once you go to your Resource Group and look for `cloud-shell*` as shown below. 
 
-<img src="http://michaelcrump.net/files/cloudshell1.png">
+<img style="border:3px solid #021a40" src="http://michaelcrump.net/files/cloudshell1.png">
 
 If you drill down into the Storage account, you'll land on two directories - `.cloudconsole` and `.pscloudshell`. More on that later. 
 
-<img src="http://michaelcrump.net/files/cloudshellgif.gif">
+<img style="border:3px solid #021a40" src="http://michaelcrump.net/files/cloudshellgif.gif">
 
 Open the Azure Cloud Shell inside of the portal by clicking on the icon at the top (looks like `>_`)
 
-Keep in mind that the Clod Shell is based off an open-source implementation of [Xterm.js](https://github.com/sourcelair/xterm.js) that emulates the terminal in your browser. It is talking over a web socket to a full Linux BASH shell. Begin by typing:
+Keep in mind that the Cloud Shell is based off an open-source implementation of [Xterm.js](https://github.com/sourcelair/xterm.js) that emulates the terminal in your browser. It is talking over a web socket to a full Linux BASH shell. Begin by typing:
 
 	michael@Azure:~$ ls -l
 	total 0
