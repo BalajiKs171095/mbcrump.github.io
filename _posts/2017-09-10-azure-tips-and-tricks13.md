@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Tips and Tricks Part 12 - Demystifying storage in Cloud Shell"
+title: "Azure Tips and Tricks Part 13 - Demystifying storage in Cloud Shell"
 excerpt: "Understand what the Azure Cloud Shell is using storage for."
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true
