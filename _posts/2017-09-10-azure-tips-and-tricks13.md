@@ -27,7 +27,7 @@ You can find it once you go to your Resource Group and look for `cloud-shell*` a
 
 If you drill down into the Storage account, you'll land on two directories - `.cloudconsole` and `.pscloudshell`. More on that later. 
 
-<img style="border:3px solid #021a40" src="http://michaelcrump.net/files/cloudshellgif.gif">
+<img style="border:3px solid #021a40" src="http://michaelcrump.net/files/cloudshellcapture.gif">
 
 Open the Azure Cloud Shell inside of the portal by clicking on the icon at the top (looks like `>_`)
 
@@ -58,7 +58,7 @@ Nice! We just found a `acc_michael.img` file. This is a 5 gig image that persist
 
 So what about the other file called `.pscloudshell`? 
 
-We'll this is for the PowerShell feature coming to the Cloud Shell! You'll have to explore this one for yourself as it is preview at the time of writing. 
+We'll this is for the PowerShell feature coming to the Cloud Shell! You'll have to explore this one for yourself as it is preview at the time of writing. But you can request access now through [this form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_A6H7yUZotAkPG2p0GxIGFURTUxQzlWWVBKWFpSNlc3RUY1UDg4STFBNS4u)!
 
 ## Want more Azure Tips and Tricks?
 
