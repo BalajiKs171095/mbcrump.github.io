@@ -24,30 +24,29 @@ For these instructions, I'll assume you have a Linux VM already setup and connec
 1. Log into Azure Cloud Shell and type `ssh-keygen -t rsa -b 2048`. Accept all default by pressing enter. It has generated a public key that is stored in `/home/michael/.ssh/id_rsa.pub.` as shown below. 
 
 ```
-
-	michael@Azure:~/clouddrive$ ssh-keygen -t rsa -b 2048
-	Generating public/private rsa key pair.
-	Enter file in which to save the key (/home/michael/.ssh/id_rsa):
-	Created directory '/home/michael/.ssh'.
-	Enter passphrase (empty for no passphrase):
-	Enter same passphrase again:
-	Your identification has been saved in /home/michael/.ssh/id_rsa.
-	Your public key has been saved in /home/michael/.ssh/id_rsa.pub.
-	The key fingerprint is:
-	SHA256:FHZVjZfU0zZaXoEvbg37/YUW+02VMIXl6UtUIumpHs0 michael@cc-72f9-63c154d-32136390-qk3bs
-	The key's randomart image is:
-	+---[RSA 2048]----+
-	|        o ..ooBB*|
-	|       . o  .++*X|
-	|        .  . +=*+|
-	|       .    o+=o.|
-	|        S  +. *+.|
-	|          o E+.=o|
-	|         . .. =.+|
-	|          .  . ++|
-	|                =|
-	+----[SHA256]-----+
-	michael@Azure:~/clouddrive$
+michael@Azure:~/clouddrive$ ssh-keygen -t rsa -b 2048
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/michael/.ssh/id_rsa):
+Created directory '/home/michael/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /home/michael/.ssh/id_rsa.
+Your public key has been saved in /home/michael/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:FHZVjZfU0zZaXoEvbg37/YUW+02VMIXl6UtUIumpHs0 michael@cc-72f9-63c154d-32136390-qk3bs
+The key's randomart image is:
++---[RSA 2048]----+
+|        o ..ooBB*|
+|       . o  .++*X|
+|        .  . +=*+|
+|       .    o+=o.|
+|        S  +. *+.|
+|          o E+.=o|
+|         . .. =.+|
+|          .  . ++|
+|                =|
++----[SHA256]-----+
+michael@Azure:~/clouddrive$
 
 ```
 
@@ -58,27 +57,29 @@ michael@Azure:~$ ls -a
 
 ```
 3. Looks good (we see `.ssh`), we'll go ahead and copy it to our server with `scp ~/.ssh/id_rsa.pub user@ipaddy:`
+
 ```
 michael@Azure:~$ scp ~/.ssh/id_rsa.pub user@ipaddy:
 mbcrump@52.161.31.243's password:
 id_rsa.pub                                                                                                                                                                                                               100%  420     0.4KB/s   00:00
 ```
 
-4. SSH to the Linux server with `ssh user@ipaddy`
+4. SSH to the Linux server with `ssh user@ipaddy`.
 
 5. Append the public key to authorized_keys `cat id_rsa.pub >> ~/.ssh/authorized_keys` and then remove the file with `rm id_rsa.pub`. 
 
-6. Edit the ssh server configuration file with `sudo nano /etc/ssh/sshd_config`
+6. Edit the ssh server configuration file with `sudo nano /etc/ssh/sshd_config`.
 
 6.1 These entries must be set to yes and they should already be that way by default:
 	RSAAuthentication yes
 	PubkeyAuthentication yes
 
-7. Reload the configuration with `sudo service ssh reload`
+7. Reload the configuration with `sudo service ssh reload`.
 
 8. Disconnect and try to connect without the need to give the password to the ssh-client `ssh user@ipaddy`.
 
 9. If everything goes as planned, you should see: 
+
 ```
 michael@Azure:~$ ssh user@ipaddy
 Welcome to Ubuntu 16.04.3 LTS (GNU/Linux 4.4.0-92-generic x86_64)
