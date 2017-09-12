@@ -2,8 +2,8 @@
 
 title:            Michael Crump
 locale:           en_US
-baseurl:          http://michaelcrump.net
-url: 		      http://michaelcrump.net
+baseurl:          https://michaelcrump.net
+url: 		      https://michaelcrump.net
 
 # Jekyll configuration
 
@@ -42,7 +42,7 @@ titlecase: true
 # Site owner
 owner:
   name: Michael Crump
-  avatar: http://michaelcrump.net/files/michael-profile-pic.jpg
+  avatar: https://michaelcrump.net/files/michael-profile-pic.jpg
   bio: Works at Microsoft on Azure 
   email: #username
   disqus-shortname: mbcrump
