@@ -72,7 +72,7 @@ id_rsa.pub                                                                      
 
 6.) Edit the ssh server configuration file with `sudo nano /etc/ssh/sshd_config`.
 
-6.1 These entries must be set to yes and they should already be that way by default:
+6.1) These entries must be set to yes and they should already be that way by default:
 	RSAAuthentication yes
 	PubkeyAuthentication yes
 
@@ -107,16 +107,17 @@ Last login: Sun Sep 10 23:49:35 2017 from 40.83.147.69
 
 If you want to disable the password on the Linux machine that you previously set:  
 
-1.) SSH back into the machine with `ssh user@ipaddy`
-2.) Disable password authentication with `sudo nano /etc/ssh/sshd_config`
+1.) SSH back into the machine with `ssh user@ipaddy`.
 
-2.1 Ensure the following settings should are set to no:
+2.) Disable password authentication with `sudo nano /etc/ssh/sshd_config`.
+
+2.1) Ensure the following settings should are set to no:
 
 	ChallengeResponseAuthentication no
 	PasswordAuthentication no
 	UsePAM no
 
-2.2. Reload the configuration with `sudo service ssh reload`
+2.2.) Reload the configuration with `sudo service ssh reload`
 
 3.) You can see if the password authentication is disabled by logging out and then trying to connect with key file authentication disabled with `ssh user@ipaddress -o PubkeyAuthentication=no`. You should get "Permission denied". 
 
