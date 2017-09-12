@@ -29,6 +29,7 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 12 - Easily Start, Restart, Stop or Delete Multiple VMs](http://michaelcrump.net/azure-tips-and-tricks12/)
 * [Azure Tips and Tricks Part 13 - Demystifying storage in Cloud Shell](http://michaelcrump.net/azure-tips-and-tricks13/)
 * [Azure Tips and Tricks Part 14 - Generate SSH public key to log into Linux VM with Cloud Shell](http://michaelcrump.net/azure-tips-and-tricks14/)
+* [Azure Tips and Tricks Part 15 - Underlying Software in Azure Cloud Shell](http://michaelcrump.net/azure-tips-and-tricks15/)
 
 ## Got a Azure Tip or Trick?
 
