@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Azure Tips and Tricks Part 16 - Deploy Jekyll Site Hosted on GitHub to Azure"
-excerpt: "Learn how to quickly deploy a Jekyll based site hosted on GitHub to Azure"
+title: "Azure Tips and Tricks Part 16 - Deploy Jekyll Site Hosted on GitHub Pages to Azure"
+excerpt: "Learn how to quickly deploy a Jekyll based site hosted on GitHub Pages to Azure"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true
 comments: true
