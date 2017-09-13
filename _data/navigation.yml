@@ -6,6 +6,9 @@
 - title: RSS
   url: http://michaelcrump.net/feed
   
+- title: Media
+  url: /media/
+
 - title: About Me
-  url: http://about.me/mbcrump
+  url: /about/
   
