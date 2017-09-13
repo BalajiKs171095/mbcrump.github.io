@@ -3,13 +3,10 @@ layout: page
 title: About Michael Crump
 tags: [about, speaker, author, developer]
 comments: false
-image:
-  feature: sample-image-2.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
-## Michael's Bio
+## Hello, friend!
 
-[Michael Crump](http://twitter.com/mbcrump) works at Microsoft on the Azure platform and is a coder, blogger and international speaker of various cloud development topics. He’s passionate about helping developers understand the benefits of the cloud in a no-nonsense way. You can reach him on Twitter at [mbcrump](http://twitter.com/mbcrump) or by following his blog at [michaelcrump.net](http://michaelcrump.net).
+<img src="https://michaelcrump.net/files/michael-profile-pic.jpg" height="200" width="200"></img>
 
+Hi, my name is [Michael Crump](http://twitter.com/mbcrump) and I work at Microsoft on the Azure platform. I'm the author of this blog and a former Developer Advocate at Telerik and 5x Microsoft MVP. My passion is helping developers be the best that they can be. I do this by [speaking](https://michaelcrump.net/media/) at conferences, [authoring](https://michaelcrump.net/media/) content, [appearing](https://michaelcrump.net/media/) on podcast and being actively involved in the developer community. If you'd like to reach out, then please begin by sending me a [tweet](http://twitter.com/mbcrump) and if that doesn't work then try email [my first name @ this domain.net]. 
