@@ -9,7 +9,7 @@ comments: true
 
 ## Intro
 
-As requested here is the complete list of all Azure Tips and Tricks. Feel free to follow me on [twitter](http://twitter.com/mbcrump) or stay tuned to this post for additional tips and tricks. I've also been putting together a [Twitter Moment](https://twitter.com/i/moments/875197559689560064) for those that prefer that format. 
+As requested here is the complete list of all Azure Tips and Tricks. Feel free to follow me on [twitter](http://twitter.com/mbcrump) or stay tuned to this post for additional tips and tricks. 
 
 ## The Complete List (so far!)
 
