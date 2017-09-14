@@ -1,0 +1,13 @@
+# main links
+main:
+- title: Posts
+  url: /posts/
+
+- title: Media
+  url: /media/
+
+- title: About Me
+  url: /about/
+
+- title: RSS
+  url: http://michaelcrump.net/feed  

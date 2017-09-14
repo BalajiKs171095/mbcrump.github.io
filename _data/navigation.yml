@@ -1,13 +1,13 @@
-# Site navigation links
-
-- title: Posts
+# main links
+main:
+ - title: "Posts"
   url: /posts/
 
-- title: Media
+ - title: "Media"
   url: /media/
 
-- title: About Me
+ - title: "About Me"
   url: /about/
 
-- title: RSS
-  url: http://michaelcrump.net/feed  
+ - title: "RSS"
+   url: http://michaelcrump.net/feed  
