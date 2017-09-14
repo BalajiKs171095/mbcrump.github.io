@@ -5,24 +5,24 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-minimal_mistakes_skin    : default # "air", "contrast", "dark", "dirt", "mint", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "contrast", "dark", "dirt", "mint", "sunrise"
 
 # Site Settings
-locale                   : en
-title                    : Main Page
-title_separator          : -
-name                     : Michael Crump
-description              : Michael Crump's Software Development Blog
-url                      : https://michaelcrump.net
-baseurl                  : 
-repository               : mbcrump/mbcrump.github.io
+locale                   : "en"
+title                    : "Main Page"
+title_separator          : "-"
+name                     : "Michael Crump"
+description              : "Michael Crump's Software Development Blog"
+url                      : "https://michaelcrump.net"
+baseurl                  : ""
+repository               : "mbcrump/mbcrump.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : disqus
+  provider               : "disqus"
   disqus:
-    shortname            : mbcrump
+    shortname            : "mbcrump"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : mbcrump
+  username               : "mbcrump"
 facebook:
   username               :
   app_id                 :
@@ -72,42 +72,42 @@ social:
 
 # Analytics
 analytics:
-  provider               : google-universal
+  provider               : "google-universal"
   google:
-    tracking_id          : UA-17277477-1
+    tracking_id          : "UA-17277477-1"
 
 
 # Site Author
 author:
-  name             : Michael Crump
-  avatar           : https://michaelcrump.net/files/michael-profile-pic.jpg
-  bio              : Works at Microsoft on Azure
-  location         : Redmond, WA
-  email            : michael@michaelcrump.net
-  uri              : https://michaelcrump.net
-  bitbucket        : mbcrump
+  name             : "Michael Crump"
+  avatar           : "https://michaelcrump.net/files/michael-profile-pic.jpg"
+  bio              : "Works at Microsoft on Azure"
+  location         : "Redmond, WA"
+  email            : "michael@michaelcrump.net"
+  uri              : "https://michaelcrump.net"
+  bitbucket        : "mbcrump"
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : mbcrump
+  github           : "mbcrump"
   gitlab           :
   google_plus      :
   keybase          :
-  instagram        : mbcrump
+  instagram        : "mbcrump"
   lastfm           :
-  linkedin         : mbcrump
+  linkedin         : "mbcrump"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : mbcrump
+  twitter          : "mbcrump"
   vine             :
   weibo            :
   xing             :
-  youtube          : mbcrump
+  youtube          : "https://youtube.com/c/mbcrump"
 
 
 # Reading Files
