@@ -14,7 +14,7 @@ title_separator          : "-"
 name                     : "Michael Crump"
 description              : "Michael Crump's Software Development Blog"
 url                      : "https://michaelcrump.net"
-baseurl                  : "https://michaelcrump.net"
+baseurl                  : ""
 repository               : "mbcrump/mbcrump.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
