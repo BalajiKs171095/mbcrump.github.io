@@ -1,5 +1,5 @@
 # Site navigation links
-
+main:
 - title: Posts
   url: /posts/
 
@@ -10,4 +10,4 @@
   url: /about/
 
 - title: RSS
-  url: http://michaelcrump.net/feed  
+  url: https://michaelcrump.net/feed  
