@@ -80,10 +80,10 @@ analytics:
 # Site Author
 author:
   name             : "Michael Crump"
-  avatar           : https://michaelcrump.net/files/michael-profile-pic.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "files/michael-profile-pic.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Works at Microsoft on Azure"
   location         : "Redmond, WA"
-  email            :
+  email            : "michael@michaelcrump.net"
   uri              :
   bitbucket        :
   codepen          :
@@ -91,11 +91,11 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : mbcrump
-  gitlab           :
+  github           : "mbcrump"
+  gitlab           : "mbcrump"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "mbcrump"
   lastfm           :
   linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
@@ -103,11 +103,11 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : mbcrump
+  twitter          : "mbcrump"
   vine             :
   weibo            :
   xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  youtube          : "mbcrump" # "https://youtube.com/c/MichaelRoseDesign"
 
 
 # Reading Files
